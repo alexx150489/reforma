@@ -4,10 +4,12 @@
 
 
 /* @import */
-@import "buttons.css"; 
 @import "blocks/header.css"; 
+
+@import "blocks/content.css"; 
 @import "blocks/breadcrumbs.css"; 
 @import "blocks/licenzies.css"; 
+@import "blocks/publics.css"; 
 @import "blocks/star.css"; 
 
 @import "blocks/footer.css"; 
@@ -31,9 +33,26 @@
 	transition:all 0.2s ease-out;
 }
 
-.title {}
+.button {
+	width: 100%;
+	display: inline-block;
+	padding: 20px 0;
+	border: 1px solid #578322;
+	border-radius: 7px;
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+}
 
-.button {}
+.title {
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	text-align: center;
+}
 
 
 

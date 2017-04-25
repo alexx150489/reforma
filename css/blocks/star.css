@@ -1,0 +1,22 @@
+.block-star {
+	background-color: #fff;
+	border-radius: 7px;
+}
+
+.star-description {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: normal;
+	text-align: center;
+}
+.star-foto {
+	text-align: center;
+}
+
+.star-name {
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+}

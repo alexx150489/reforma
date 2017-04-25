@@ -2,10 +2,6 @@
 	background-color: #cdcdcd;
 }
 
-.block-footer .mailing {
-	background-color: #85b54a;
-}
-
 .block-footer .footer-list-link {
 	display: block;
 	padding: 24px 0 20px;
@@ -22,6 +18,3 @@
 
 
 
-.block-footer .copyright {
-	text-align: center;
-}

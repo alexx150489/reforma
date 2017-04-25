@@ -3,11 +3,12 @@
 	background-color: #6f7173;
 }
 
-.block-header .header-logo-wrapper {
+.header-logo-wrapper {
 	float: left;
+	padding: 6px 0 8px;
 }
 
-.block-header .header-tel {
+.header-tel {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 14px;
 	line-height: 26px;
@@ -16,11 +17,11 @@
 	text-align: right;
 }
 
-.block-header .header-buttons-wrapper {
+.header-buttons-wrapper {
 	float: right;
 }
 
-.block-header .header-main-navigation {
+.header-main-navigation {
 	display: none;
 }
 

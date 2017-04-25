@@ -1,0 +1,27 @@
+.block-footer {
+	background-color: #cdcdcd;
+}
+
+.block-footer .mailing {
+	background-color: #85b54a;
+}
+
+.block-footer .footer-list-link {
+	display: block;
+	padding: 24px 0 20px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	line-height: 28px;
+	font-weight: bold;
+	border-bottom: 2px solid #bfbfbf;
+}
+
+.block-footer .footer-list-item:last-child a {
+	border-bottom: none;
+}
+
+
+
+.block-footer .copyright {
+	text-align: center;
+}

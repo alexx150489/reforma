@@ -1,6 +1,20 @@
 /* ==========================================================================
-   Стили CSS3
-   ========================================================================== */
+	 пїЅпїЅпїЅпїЅпїЅ CSS3
+	 ========================================================================== */
+
+
+/* @import */
+@import "buttons.css"; 
+@import "blocks/header.css"; 
+@import "blocks/breadcrumbs.css"; 
+@import "blocks/licenzies.css"; 
+@import "blocks/star.css"; 
+
+@import "blocks/footer.css"; 
+@import "blocks/mailing.css"; 
+@import "blocks/social.css"; 
+@import "blocks/copyright.css"; 
+
 
 * {
 	box-sizing:border-box;
@@ -16,6 +30,11 @@
 	-o-transition:all 0.2s ease-out;
 	transition:all 0.2s ease-out;
 }
+
+.title {}
+
+.button {}
+
 
 
 
@@ -48,4 +67,5 @@
 	transition:all 0.2s ease-out;
 }
 */
+
 

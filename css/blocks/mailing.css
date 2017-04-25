@@ -1,0 +1,9 @@
+.block-mailing .mailing-title {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 32px 0 25px;
+}

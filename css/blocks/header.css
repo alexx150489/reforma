@@ -1,0 +1,27 @@
+.block-header {
+	border-bottom: 1px solid #a9adaf;
+	background-color: #6f7173;
+}
+
+.block-header .header-logo-wrapper {
+	float: left;
+}
+
+.block-header .header-tel {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #fff;
+	text-align: right;
+}
+
+.block-header .header-buttons-wrapper {
+	float: right;
+}
+
+.block-header .header-main-navigation {
+	display: none;
+}
+
+

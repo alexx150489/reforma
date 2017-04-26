@@ -1,22 +1,62 @@
 .block-pagination {
 	width: 181px;
 	margin: 0 auto;
+	margin-bottom: 30px;
 	font-size: 0;
 }
 
+.pagination-wrapper {
+	position: relative;
+}
+
+.pagination-control {
+	border: none;
+}
+
+.pagination-control.prev {
+	position: absolute;
+	width: 11px;
+	height: 16px;
+	top: 14px;
+	left: -30px;
+	background: url("../../images/sprite.png") -1008px -5px no-repeat;
+}
+
+.pagination-control.next {
+	position: absolute;
+	width: 11px;
+	height: 16px;
+	top: 14px;
+	right: -29px;
+	background: url("../../images/sprite.png") -1069px -5px no-repeat;
+}
+
+.pagination-dots {
+	display: inline-block;
+	width: 24px;
+	height: 14px;
+	margin-right: 12px;
+	background: url("../../images/sprite.png") -1090px 0 no-repeat;
+}
+
+
+
 .pagination-item {
 	display: inline-block;
-	vertical-align: top;
 	width: 41px;
 	height: 41px;
-	margin-right: 9px;
+	margin-right: 11px;
 	background-color: #fff;
 	font-family: 'PT Sans Caption', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 41px;
 	color: #5f5e5e;
 	text-align: center;
 	cursor: pointer;
+}
+
+.pagination-item:last-child {
+	margin-right: 0;
 }
 
 .pagination-item.active {
@@ -24,19 +64,4 @@
 	color: #fff;
 }
 
-.pagination-item:last-child {
-	position: relative;
-	margin-right: 0;
-	margin-left: 40px;
-}
 
-.pagination-item:last-child::after {
-	position: absolute;
-	content: '';
-	width: 24px;
-	height: 4px;
-	top: 18px;
-	left: -35px;
-	background-color: #000;
-	cursor: none;
-}

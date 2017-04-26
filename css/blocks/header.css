@@ -1,11 +1,15 @@
 .block-header {
+	position: relative;
 	border-bottom: 1px solid #a9adaf;
 	background-color: #6f7173;
 }
 
+
+
 .header-logo-wrapper {
+	min-height: 93px;
 	float: left;
-	padding: 6px 0 8px;
+	padding: 5px 0;
 }
 
 .header-tel {
@@ -19,10 +23,115 @@
 
 .header-buttons-wrapper {
 	float: right;
+	width: 61px;
+	padding-top: 40px;
+	font-size: 0;
 }
 
-.header-main-navigation {
-	display: none;
+.header-search-icon {
+	float: left;
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background: url("../../images/sprite.png") -1298px -5px no-repeat;
+	cursor: pointer;
 }
+
+.header-burger-icon {
+	float: right;
+	display: inline-block;
+	width: 24px;
+	height: 16px;
+	margin-left: 18px;
+	background: url("../../images/sprite.png") -958px -5px no-repeat;
+	cursor: pointer;
+}
+
+.header-navigation {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	clear: both;
+	background-color: #6f7173;
+}
+
+.header-navigation-menu {
+	margin-bottom: 25px;
+}
+
+.header-navigation .menu-link {
+	display: block;
+	padding-bottom: 9px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 14px;
+	line-height: 27px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.header-close-icon {
+	display: none;
+	float: right;
+	width: 19px;
+	height: 17px;
+	top: 40px;
+	right: 0;
+	margin-left: 18px;
+	background: url("../../images/sprite.png") -5px -57px no-repeat;
+	cursor: pointer;
+}
+
+.header-contacts {
+	padding-bottom: 23px;
+}
+
+.header-contacts-towns {
+	margin-bottom: 14px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: #80c343;
+	cursor: pointer;
+}
+
+.header-contacts-town {
+	display: inline-block;
+	border-bottom: 1px solid #80c343;
+}
+
+.header-contacts-town.active {
+	color: #fff;
+	border-bottom: none;
+}
+
+.header-contacts-tel {
+
+	padding-left: 32px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+}
+
+.header-contacts-tel span {
+	position: relative;
+}
+
+.header-contacts-tel span::after {
+	position: absolute;
+	content: '';
+	width: 19px;
+	height: 18px;
+	top: 2px;
+	left: -36px;
+	background: url("../../images/sprite.png") -34px -58px no-repeat;
+}
+
 
 

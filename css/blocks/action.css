@@ -1,6 +1,11 @@
+.action-title {
+	padding-bottom: 25px;
+}
+
 .action-item {
 	border: 1px solid #6f7173;
-	padding: 16px 13px;
+	padding: 10px 14px;
+	margin-bottom: 31px;
 }
 
 .action-item-title {
@@ -9,9 +14,11 @@
 	line-height: 28px;
 	font-weight: bold;
 	color: #000;
+	padding-bottom: 13px;
 }
 
 .action-item-date {
+	display: block;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 12px;
 	line-height: 22px;
@@ -20,6 +27,7 @@
 }
 
 .action-item-description {
+	padding-top: 9px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
@@ -28,6 +36,8 @@
 }
 
 .action-item-link {
+	display: block;
+	padding-top: 5px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 15px;
 	line-height: 28px;

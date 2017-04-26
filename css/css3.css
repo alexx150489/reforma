@@ -16,6 +16,7 @@
 @import "blocks/clinic-gallery.css"; 
 @import "blocks/star.css"; 
 @import "blocks/pagination.css"; 
+@import "blocks/magazine.css";
 
 @import "blocks/footer.css"; 
 @import "blocks/mailing.css"; 
@@ -41,7 +42,7 @@
 .button {
 	width: 100%;
 	display: inline-block;
-	padding: 20px 0;
+	padding: 15px 0;
 	border: 1px solid #578322;
 	border-radius: 7px;
 	font-family: 'FedraSansPro-Light', sans-serif;
@@ -49,19 +50,21 @@
 	line-height: 28px;
 	text-transform: uppercase;
 	text-align: center;
+	cursor: pointer;
 }
 
 .title {
 	font-family: 'FedraSansPro-Light', sans-serif;
 	font-size: 24px;
 	line-height: 28px;
+	font-weight: normal;
 	color: #000000;
 	text-align: center;
+
 }
 
 .form-element {
 	display: block;
-	width: 100%;
 	background-color: #cdcdcd;
 	border: 1px solid #606060;
 	border-radius: 1px;

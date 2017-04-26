@@ -1,0 +1,46 @@
+.block-social {
+	font-size: 0;
+	margin-bottom: 29px;
+	padding-top: 29px;
+}
+
+.block-social p {
+	padding: 21px 0 15px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 13px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.social-button {
+	display: inline-block;
+	vertical-align: top;
+	width: 32px;
+	height: 32px;
+	margin-right: 33px;
+	cursor: pointer;
+}
+
+.social-button:last-child {
+	margin-right: 0px;
+}
+
+.social-button.fb {
+	background: url("../../images/sprite.png") -642px -5px no-repeat;
+}
+
+.social-button.inst {
+	background: url("../../images/sprite.png") -826px -5px no-repeat;
+}
+
+.social-button.tw {
+	background: url("../../images/sprite.png") -1423px -5px no-repeat;
+}
+
+.social-button.yt {
+	background: url("../../images/sprite.png") -1465px -5px no-repeat;
+}
+
+.social-button.vk {
+	background: url("../../images/sprite.png") -1507px -5px no-repeat;
+}

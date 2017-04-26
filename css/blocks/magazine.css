@@ -1,0 +1,24 @@
+.magazine-description {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.magazine-item-title {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: bold;
+	color: #000;
+}
+
+.magazine-item-title a {
+	float: right;
+	padding-top: 8px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #578322;
+}

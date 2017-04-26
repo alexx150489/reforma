@@ -4,8 +4,6 @@
 	background-color: #6f7173;
 }
 
-
-
 .header-logo-wrapper {
 	min-height: 93px;
 	float: left;
@@ -95,12 +93,14 @@
 	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
-	color: #80c343;
+	color: #fff;
 	cursor: pointer;
+
 }
 
 .header-contacts-town {
 	display: inline-block;
+	color: #80c343;
 	border-bottom: 1px solid #80c343;
 }
 
@@ -110,7 +110,6 @@
 }
 
 .header-contacts-tel {
-
 	padding-left: 32px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 15px;

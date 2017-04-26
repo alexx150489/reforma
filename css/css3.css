@@ -10,7 +10,12 @@
 @import "blocks/breadcrumbs.css"; 
 @import "blocks/licenzies.css"; 
 @import "blocks/publics.css"; 
+@import "blocks/action.css"; 
+@import "blocks/contacts.css"; 
+@import "blocks/write-us.css"; 
+@import "blocks/clinic-gallery.css"; 
 @import "blocks/star.css"; 
+@import "blocks/pagination.css"; 
 
 @import "blocks/footer.css"; 
 @import "blocks/mailing.css"; 
@@ -52,6 +57,14 @@
 	line-height: 28px;
 	color: #000000;
 	text-align: center;
+}
+
+.form-element {
+	display: block;
+	width: 100%;
+	background-color: #cdcdcd;
+	border: 1px solid #606060;
+	border-radius: 1px;
 }
 
 

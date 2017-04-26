@@ -1,0 +1,43 @@
+.block-write-us {
+	background-color: #fff;
+}
+
+.write-us-title {
+	font-family: 'FedraSansPro-Normal', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.write-us-form {
+	position: relative;
+}
+
+.write-us-text {
+	resize: none;
+}
+
+.write-us-text {
+	margin-bottom: 20px;
+}
+
+.write-us-tip {
+	position: absolute;
+	content: '';
+	width: 148px;
+	height: ;
+	top: 260px;
+	left: 0;
+}
+
+.write-us-submit {
+	float: right;
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 0;
+	border: none;
+	font-family: 'FedraSansPro-Normal', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+}

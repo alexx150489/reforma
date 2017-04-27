@@ -1,0 +1,59 @@
+.priceuslugi-search-wrapper {
+	position: relative;
+
+}
+
+.priceuslugi-search-wrapper::after {
+	position: absolute;
+	content: '';
+	width: 19px;
+	height: 19px;
+	top: 20px;
+	right: 14px;
+	background: url("../../images/sprite.png") -1326px -4px no-repeat;
+}
+
+.priceuslugi-form {
+	display: block;
+	width: 100%;
+}
+
+.priceuslugi-search-wrapper input[type="search"] {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 60px;
+	padding: 0 30px 0 10px;
+	border: 1px solid #606060;
+	border-radius: 7px;
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.priceuslugi-link {
+	position: relative;
+	display: block;
+	padding: 17px 0 14px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	line-height: 28px;
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+	color: #578322;
+}
+
+.priceuslugi-link::after {
+	position: absolute;
+	content: '';
+	width: 6px;
+	height: 10px;
+	top: 26px;
+	right: 0;
+	background: url("../../images/sprite.png") -234px -5px no-repeat;
+}
+
+.priceuslugi-item:first-child .priceuslugi-link {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}

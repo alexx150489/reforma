@@ -1,0 +1,113 @@
+.specialist-foto {
+	text-align: center;
+}
+
+.specialist-name {
+	padding: 0 50px;
+	font-family: 'FedraSansPro-Normal', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.specialist-name span {
+	text-transform: uppercase;
+}
+
+.specialist-position {
+	padding: 0 16px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+}
+
+.specialist-specialization-wrapper {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.specialist-specialization-title {
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.specialist-specialization-list {
+	padding-left: 12px;
+}
+
+.specialist-specialization-list li {
+	position: relative;
+}
+
+.specialist-specialization-list li::after {
+	position: absolute;
+	content: '-';
+	width: 6px;
+	height: 1px;
+	top: 0;
+	left: -10px;
+}
+
+.specialist-about-wrapper {
+	padding-left: 12px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.specialist-about-list li {
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.specialist-about-list li::after {
+	position: absolute;
+	content: '.';
+	width: 1px;
+	height: 1px;
+	top: -4px;
+	left: -10px;
+}
+
+.specialist-description {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.specialist-honors-wrapper {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.specialist-honors-title {
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.specialist-honors-list {
+	padding-left: 12px;
+}
+
+.specialist-honors-list li {
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.specialist-honors-list li::after {
+	position: absolute;
+	content: '.';
+	width: 1px;
+	height: 1px;
+	top: -4px;
+	left: -10px;
+}

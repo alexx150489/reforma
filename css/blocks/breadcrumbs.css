@@ -23,3 +23,7 @@
 .breadcrumbs-link:first-child {
 	margin-left: 0;
 }
+
+.block-breadcrumbs.specialist	{
+	padding-right: 70px;
+}

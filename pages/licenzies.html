@@ -35,23 +35,34 @@
 							<div class="header-logo">
 								<a href="#"><img src="../images/logo.png" width="161" height="57" alt="Логотип" /></a>
 							</div>
-							<div class="header-tel">+7 (495) 266-79-58</div>
+							<div id="header-tel-js" class="header-tel">+7 (495) 266-79-58</div>
 						</div>
-						<div class="header-buttons-wrapper">
-							<a class="header-search">Поиск</a>
-							<a class="header-touch-menu">Меню</a>
+						<div class="header-buttons-wrapper clearfix">
+							<a class="header-search-icon"></a>
+							<a id="close-icon-js" class="header-close-icon"></a>
+							<a id="burger-icon-js" class="header-burger-icon"></a>
 						</div>
+
+						<nav id="navigation-js" class="header-navigation">
+							<ul class="header-navigation-menu">
+								<li class="menu-item"><a class="menu-link" href="#">Процедуры</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">О клиниках</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Акции</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Новости</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Отзывы</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Контакты</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Цены</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Сми о нас</a></li>
+							</ul>
+							<div class="header-contacts">
+								<div class="header-contacts-towns">
+									<span class="header-contacts-town active">Москва</span> / <span class="header-contacts-town">Екатеринбург</span>
+								</div>
+								<div class="header-contacts-tel"><span>+7 (495) 266 79 57</span></div>
+							</div>
+						</nav>
 					</div>
-					<nav class="header-main-navigation">
-						<ul>
-							<li><a href="#">Текст_1</a></li>
-							<li><a href="#">Текст_2</a></li>
-							<li><a href="#">Текст_3</a></li>
-							<li><a href="#">Текст_4</a></li>
-							<li><a href="#">Текст_5</a></li>
-						</ul>
-						<div class="header-contacts"></div>
-					</nav>
+
 				</div>
 			</header>
 			<!--HEADER-END-->
@@ -106,15 +117,15 @@
 
 				</div>
 				
-				<div class="clear clear-footer"></div>
+				<!--<div class="clear clear-footer"></div>-->
 			</section>
 
 
 		</main>
 
-<!--FOOTER-->
+		<!--FOOTER-->
 		<footer class="block-footer">
-			<div class="site-wrap">
+			<div class="site-wrap">	
 				<nav class="footer-nav">
 					<ul class="footer-list unstyle-list">
 						<li class="footer-list-item"><a class="footer-list-link" href="">Пластическая хирургия</a></li>
@@ -127,22 +138,34 @@
 						<li class="footer-list-item"><a class="footer-list-link" href="">Я хочу</a></li>
 					</ul>
 				</nav>
-
-				<section class="block-mailing">
-					<div class="mailing-title">Присоединиться к рассылке</div>
-					<form class="mailing-form" action="">
-						<input class="mailing-email" type="email">
-						<input class="mailing-submit" type="submit">
-					</form>
-				</section>
-
-				<section class="block-social"></section>
-
-				<section class="block-copyright">Copyright 2015-2017</section>
 			</div>
 
+				<section class="block-mailing">
+					<div class="site-wrap">
+							<div class="mailing-title">Присоединиться к рассылке</div>
+							<form class="mailing-form clearfix" action="">
+								<input class="mailing-email form-element" type="email">
+								<input class="mailing-submit" type="submit">
+							</form>
+					</div>
+				</section>
+				<div class="site-wrap">
+					<section class="block-social">
+
+						<a class="social-button fb" href=""></a>
+						<a class="social-button inst" href=""></a>
+						<a class="social-button tw" href=""></a>
+						<a class="social-button vk" href=""></a>
+						<a class="social-button yt" href=""></a>
+					</section>
+				</div>
+				
+				<div class="site-wrap">
+					<section class="block-copyright">Copyright 2015-2017</section>
+				
+
 		</footer>
-<!--FOOTER-END-->
+		<!--FOOTER-END-->
 
 	</body>
 </html>

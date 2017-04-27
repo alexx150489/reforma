@@ -13,8 +13,13 @@
 }
 
 .breadcrumbs-link {
-	margin-right: 6px;
+	margin-left: 6px;
+	margin-right: 2px;
 	color: #80c343;
 	text-transform: uppercase;
 	border-bottom: 1px solid #80c343;
+}
+
+.breadcrumbs-link:first-child {
+	margin-left: 0;
 }

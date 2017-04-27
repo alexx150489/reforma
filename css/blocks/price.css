@@ -1,0 +1,55 @@
+.price-title {
+	margin-bottom: 25px;
+}
+
+.price-categories {
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.price-category {
+	display: block;
+	padding-top: 80px;
+	margin-bottom: 24px;
+}
+
+.price-category:last-child {
+	margin-bottom: 0;
+}
+
+.price-category-title {
+	position: relative;
+	margin-bottom: 8px;
+	font-family: 'FedraSansPro-Normal', sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	color: #000;
+}
+
+.price-category.services .price-category-title::after {
+	position: absolute;
+	content: '';
+	width: 50px;
+	height: 69px;
+	top: -82px;
+	left: 122px;
+	background: url("../../images/sprite.png") -868px -5px no-repeat;
+}
+
+.price-category.cosmeceuticals .price-category-title::after {
+	position: absolute;
+	content: '';
+	width: 62px;
+	height: 67px;
+	top: -82px;
+	left: 122px;
+	background: url("../../images/sprite.png") -684px -5px no-repeat;
+}
+
+.price-description {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #618a30;
+}

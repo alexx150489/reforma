@@ -1,0 +1,31 @@
+.block-priceusluga {
+	width: 320px;
+	margin: 0 auto;
+}
+
+.priceusluga-table {
+	width: 100%;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.priceusluga-table tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+.priceusluga-table th, .priceusluga-table td {
+
+	vertical-align: middle;
+	text-align: left;
+}
+
+.priceusluga-table .column1{
+	padding-left: 13px;
+}
+
+.priceusluga-table th {
+	font-weight: bold;
+}
+

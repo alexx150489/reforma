@@ -1,0 +1,24 @@
+.procedurs-link { 
+	position: relative;
+	display: block;
+	padding: 17px 0 14px;
+	font-family: 'PTSansPro-CaptionBold', sans-serif;
+	font-size: 15px;
+	line-height: 28px;
+	color: #000;
+	border-top: 2px solid #fff;
+}
+
+.procedurs-link::after {
+	position: absolute;
+	content: '';
+	width: 6px;
+	height: 10px;
+	top: 26px;
+	right: 0;
+	background: url("../../images/sprite.png") -234px -5px no-repeat;
+}
+
+.procedurs-item:last-child .procedurs-link {
+	border-bottom: 2px solid #fff;
+}

@@ -1,0 +1,59 @@
+.block-services {
+margin-bottom: 6px;
+}
+
+.services-items {
+	width: 296px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.services-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 125px;
+	margin-left: 5px;
+	padding-bottom: 25px;
+}
+
+.services-item.column2 {
+	margin-left: 18px;
+}
+
+.services-item-image {
+	width: 125px;
+	height: 126px;
+	margin: 0 auto;
+}
+
+.services-item-image.section1 {
+	background: url("../../images/photo-5.png") 0 0 no-repeat;
+}
+
+.services-item-image.section2 {
+	background: url("../../images/photo.png") 0 0 no-repeat;
+}
+
+.services-item-image.section3 {
+	background: url("../../images/photo-1.png") 0 0 no-repeat;
+}
+
+.services-item-image.section4 {
+	background: url("../../images/photo-2.png") 0 0 no-repeat;
+}
+.services-item-image.section5 {
+	background: url("../../images/photo-3.png") 0 0 no-repeat;
+}
+.services-item-image.section6 {
+	background: url("../../images/photo-4.png") 0 0 no-repeat;
+}
+
+
+.services-item-title {
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: normal;
+	color: #000;
+}

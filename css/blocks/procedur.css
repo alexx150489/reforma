@@ -1,0 +1,127 @@
+.procedur-social {
+	width: 296px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.procedur-social-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 25px;
+	height: 25px;
+	margin-right: 2px;
+}
+
+.procedur-social-item:last-child {
+	margin-right: 0;
+}
+
+.procedur-social-item.vk {
+	background: url("../../images/sprite.png") -277px -5px no-repeat;
+}
+
+.procedur-social-item.fb {
+	background: url("../../images/sprite.png") -311px -5px no-repeat;
+}
+
+.procedur-social-item.odn {
+	background: url("../../images/sprite.png") -345px -5px no-repeat;
+}
+
+.procedur-social-item.mm {
+	background: url("../../images/sprite.png") -378px -5px no-repeat;
+}
+
+.procedur-social-item.gplus {
+	background: url("../../images/sprite.png") -411px -5px no-repeat;
+}
+
+.procedur-social-item.tw {
+	background: url("../../images/sprite.png") -444px -5px no-repeat;
+}
+
+.procedur-social-item.b {
+	background: url("../../images/sprite.png") -477px -5px no-repeat;
+}
+
+.procedur-social-item.link {
+	background: url("../../images/sprite.png") -510px -5px no-repeat;
+}
+
+.procedur-social-item.tum {
+	background: url("../../images/sprite.png") -543px -5px no-repeat;
+}
+
+.procedur-social-item.vb {
+	background: url("../../images/sprite.png") -576px -5px no-repeat;
+}
+
+.procedur-social-item.wa {
+	background: url("../../images/sprite.png") -609px -5px no-repeat;
+}
+
+.procedur-menu-title {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #4683ff;
+	cursor: pointer;
+}
+
+.procedur-menu-title span {
+	position: relative;
+	border-bottom: 1px dotted #4683ff;
+}
+
+.procedur-menu-title span::after {
+	position: absolute;
+	content: '';
+	width: 21px;
+	height: 17px;
+	top: 50%;
+	right: -32px;
+	transform: translateY(-50%);
+	background: url("../../images/sprite.png") -1267px -5px no-repeat;
+}
+
+.procedur-info {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+}
+.procedur-info b {
+	font-size: 15px;
+}
+
+.procedur-info a {
+	font-weight: bold;
+	color: #578322;
+	font-size: 15px;
+}
+
+.procedur-menu-link { 
+	position: relative;
+	display: block;
+	padding: 17px 0 14px;
+	font-family: 'PTSansPro-CaptionBold', sans-serif;
+	font-size: 15px;
+	line-height: 28px;
+	color: #000;
+	border-top: 2px solid #fff;
+}
+
+.procedur-menu-link::after {
+	position: absolute;
+	content: '';
+	width: 6px;
+	height: 10px;
+	top: 26px;
+	right: 0;
+	background: url("../../images/sprite.png") -234px -5px no-repeat;
+}
+
+.procedur-menu-item:last-child .procedur-menu-link {
+	border-bottom: 2px solid #fff;
+}

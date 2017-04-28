@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+
+// mobile-menu >>>
+
 	var openMenu = $('#burger-icon-js');	
 	var menu = $('#navigation-js');
 	var headerTel = $('#header-tel-js');

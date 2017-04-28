@@ -16,9 +16,12 @@
 @import "blocks/star.css"; 
 @import "blocks/pagination.css"; 
 @import "blocks/magazine.css";
+@import "blocks/services.css";
 @import "blocks/priceuslugi.css";
 @import "blocks/priceusluga.css";
 @import "blocks/iwant.css";
+@import "blocks/procedurs.css";
+@import "blocks/procedur.css";
 @import "blocks/specialist.css";
 @import "blocks/videoarchive.css";
 @import "blocks/price.css";

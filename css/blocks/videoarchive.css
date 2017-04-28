@@ -1,8 +1,17 @@
+.videoarchive-title {
+	margin-bottom: 18px;
+}
+
 .videoarchive-item-title {
+	margin-bottom: 7px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 18px;
 	line-height: 28px;
 	font-weight: bold;
+}
+
+.videoarchive-item {
+	margin-bottom: 42px;
 }
 
 .videoarchive-item-date {
@@ -13,6 +22,7 @@
 }
 
 .videoarchive-item-description {
+	padding-top: 9px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
@@ -20,12 +30,12 @@
 }
 
 .videoarchive-item-description a {
-	font-size: 15px;
 	font-weight: bold;
 	color: #578322;
 }
 
 .videoarchive-video {
+	padding-top: 16px;
 	text-align: center;
 }
 

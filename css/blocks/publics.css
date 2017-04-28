@@ -2,12 +2,26 @@
 	background-color: #ecf1f4;
 }
 
+.publics-title {
+	margin-bottom: 13px;
+}
+
 .publics-item-title {
+	margin-bottom: 19px;
+	padding-right: 45px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 18px;
 	line-height: 28px;
 	font-weight: bold;
 	color: #000;
+}
+
+.publics-item {
+	margin-bottom: 46px;
+}
+
+.publics-image {
+	text-align: center;
 }
 
 

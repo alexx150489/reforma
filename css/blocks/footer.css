@@ -6,10 +6,9 @@
 	position: relative;
 	display: block;
 	padding: 17px 0 14px;
-	font-family: 'PT Sans Caption', sans-serif;
+	font-family: 'PTSansPro-Caption', sans-serif;
 	font-size: 15px;
 	line-height: 28px;
-	font-weight: bold;
 	border-bottom: 2px solid #bfbfbf;
 }
 

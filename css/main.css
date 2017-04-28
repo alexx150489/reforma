@@ -45,18 +45,15 @@ header {background:#efefef; width:100%;}
 /* ==========================================================================
 	 Вспомогательные стили
 	 ========================================================================== */
-
+/*.clearfix {display:inline-block; //display:inline; //zoom:1; width:100%;}*/
 .show {display:block;}
 .hide {display:none;}
 .invisible {visibility:hidden;}
 .clear {margin:0px; padding:0px; font-size:0px; line-height:0px; height:1px; clear:both; float:none;}
+.clear-m {margin: 0;}
+.clear-p {padding: 0;}
 .unstyle-list {margin: 0;list-style-type: none;}
-/*.clearfix {display:inline-block; //display:inline; //zoom:1; width:100%;}*/
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-}
+.clearfix:after {content: "";	display: table;	clear: both;}
 
 
 ::-ms-reveal {display:none;}

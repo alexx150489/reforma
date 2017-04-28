@@ -1,8 +1,22 @@
+.licenzies-title {
+	margin-bottom: 	20px;
+}
+
 .licenzies-subtitle {
+	margin-bottom: 15px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
 	font-weight: bold;
 	color: #000000;
+	text-align: center;
+}
+
+.licenzies-items	{
+	margin-bottom: 32px;
+}
+
+.licenzies-item {
+	margin-bottom: 12px;
 	text-align: center;
 }

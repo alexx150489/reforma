@@ -2,12 +2,12 @@
 	padding: 21px 0 15px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 13px;
-	line-height: 26px;
+	line-height: 24px;
 	font-weight: bold;
 	color: #000;
 }
 
-.block-breadcrumbs span {
+.breadcrumbs-current {
 	margin-left: 4px;
 	text-transform: uppercase;
 }

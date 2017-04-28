@@ -1,4 +1,9 @@
+.magazine-title {
+	margin-bottom: 18px;
+}
+
 .magazine-description {
+	margin-bottom: 17px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
@@ -6,6 +11,7 @@
 }
 
 .magazine-item-title {
+	margin-bottom: 14px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 18px;
 	line-height: 28px;
@@ -21,4 +27,12 @@
 	line-height: 20px;
 	font-weight: normal;
 	color: #578322;
+}
+
+.magazine-item {
+	margin-bottom: 40px;
+}
+
+.magazine-image {
+	text-align: center;
 }

@@ -5,7 +5,6 @@
 }
 
 .star-description {
-	position: relative;
 	padding-top: 65px;
 	padding-bottom: 17px;
 	font-family: 'PT Sans Caption', sans-serif;
@@ -15,13 +14,17 @@
 	text-align: center;
 }
 
-.star-description::after {
+.star-description span {
+	position: relative;
+}
+
+.star-description span::after {
 	position: absolute;
 	content: '';
 	width: 177px;
 	height: 21px;
-	top: 30px;
-	left: 57px;
+	top: -43px;
+	left: -3px;
 	background: url("../../images/sprite.png") -48px -6px no-repeat;
 }
 

@@ -14,17 +14,18 @@
 .mailing-form {
 	font-size: 0;
 	padding-bottom: 33px;
-
 }
 
 .mailing-email {
 	float: left;
 	width: 176px;
+	height: 33px;
+	padding-left: 13px;
 	display: inline-block;
 	vertical-align: top;
-	font-family: 'FedraSansPro-Light', sans-serif;
-	font-size: 14px;
-	line-height: 28px;
+	font-family: 'PTSansPro-LightItalic', sans-serif;
+	font-size: 15px;
+	line-height: 26px;	
 }
 
 .mailing-submit {

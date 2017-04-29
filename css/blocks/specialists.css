@@ -1,0 +1,69 @@
+.block-specialists .site-wrap {
+	padding: 0 13px;
+}
+
+
+
+
+.specialists-description p {
+	margin-bottom: 10px;
+}
+.specialists-description p:last-child {
+	margin-bottom: 0;
+}
+
+.specialists-filter-wrapper {
+	width: 100%;
+}
+
+.specialists-filter-wrapper select {
+	width: 100%;
+}
+
+.specialists-filter-wrapper button {
+	width: 100%;
+}
+
+.specialists-item .specialist-name {
+	text-align: center;
+}
+
+.specialists-item .specialist-name {
+	padding: 0 60px;
+	font-family: 'FedraSansPro-Normal', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	color: #000;
+}
+
+.specialists-item .specialist-name span {
+	text-transform: uppercase;
+}
+
+.specialists-item .specialist-info {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+	text-align: center;
+	font-style: italic;
+}
+
+.specialists-item .specialist-link {
+	display: block;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: bold;
+	text-align: center;
+	color: #85b54a;
+}
+
+.specialists-item .specialization-title {
+	font-weight: bold;
+}
+
+.specialists-item .clinic-title {
+	font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.block-model {
+	padding: 0 13px;
+	padding-top: 20px;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+}
+
+.model-title {
+	margin-bottom: 23px;
+}
+
+.model-image {
+	width: 263px;
+	height: 782px;
+	margin: 0 auto;
+	margin-bottom: 26px;
+	background: url("../../images/woman.jpg") 10px 0 no-repeat;
+}
+
+.model-link {
+	display: block;
+	padding: 14px 0;
+	margin-bottom: 32px;
+	background-color: #85b54a;
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #578322;
+	border-radius: 7px;
+}

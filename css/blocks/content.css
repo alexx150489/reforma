@@ -9,3 +9,31 @@
 .content-all-services {
 	margin-bottom: 32px;
 }
+
+.content-wrapper {
+	padding: 0 13px;
+}
+
+.content-links-wrapper {
+	padding: 31px 13px;
+	margin-bottom: 25px;
+	border-bottom: 4px solid #fff;
+}
+
+.content-links-wrapper a {
+	display: block;
+	padding: 14px 0;
+	background-color: #85b54a;
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #578322;
+	border-radius: 7px;
+	margin-bottom: 30px;
+}
+
+.content-links-wrapper a:last-child {
+	margin-bottom: 0;
+}

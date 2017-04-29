@@ -4,6 +4,11 @@
 	background-color: #6f7173;
 }
 
+.block-header .site-wrap {
+	padding: 0 13px;
+}
+
+
 .header-logo-wrapper {
 	min-height: 93px;
 	float: left;

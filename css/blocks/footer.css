@@ -2,6 +2,10 @@
 	background-color: #cdcdcd;
 }
 
+.block-footer .site-wrap {
+	padding: 0 13px;
+}
+
 .footer-list-link {
 	position: relative;
 	display: block;

@@ -4,7 +4,10 @@
 
 /* @import */
 @import "blocks/header.css"; 
-
+@import "blocks/main.css"; 
+@import "blocks/main-slider.css"; 
+@import "blocks/actions-slider.css"; 
+@import "blocks/model.css"; 
 @import "blocks/content.css"; 
 @import "blocks/breadcrumbs.css"; 
 @import "blocks/licenzies.css"; 
@@ -23,6 +26,7 @@
 @import "blocks/procedurs.css";
 @import "blocks/procedur.css";
 @import "blocks/specialist.css";
+@import "blocks/specialists.css";
 @import "blocks/videoarchive.css";
 @import "blocks/price.css";
 @import "blocks/footer.css"; 
@@ -77,7 +81,7 @@
 }
 
 
-
+.slick-slide:focus { outline: none; }
 
 
 

@@ -25,12 +25,12 @@ button, input, select, textarea {outline:none; font-family:'arial';}
 textarea {overflow:auto; resize: vertical;}
 table {margin:0px; padding:0px; border:none; border-collapse:collapse;}
 table td, table th {margin:0px; padding:0px; border:none; border-collapse:collapse; text-align:left; vertical-align:top; font-weight:normal;}
-
+input {outline:none;}
 
 /* General */
 main {min-height:100%; min-width:320px; position:relative;}
 .clear.clear-footer {height:100px;}
-.site-wrap {width:320px; margin:0px auto; padding: 0 13px;}
+.site-wrap {width:320px; margin:0px auto;}
 
 
 /* Header */

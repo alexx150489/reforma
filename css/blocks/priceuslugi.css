@@ -1,6 +1,13 @@
+.priceuslugi-title {
+	margin-bottom: 24px;
+}
+
+.priceuslugi-form-wrapper {
+	margin-bottom: 30px;
+}
+
 .priceuslugi-search-wrapper {
 	position: relative;
-
 }
 
 .priceuslugi-search-wrapper::after {
@@ -31,6 +38,10 @@
 	line-height: 20px;
 }
 
+.priceuslugi-menu {
+	margin-bottom: 34px;
+}
+
 .priceuslugi-link {
 	position: relative;
 	display: block;
@@ -39,7 +50,7 @@
 	font-size: 15px;
 	line-height: 28px;
 	font-weight: bold;
-	border-bottom: 1px solid #fff;
+	border-bottom: 2px solid #fff;
 	color: #578322;
 }
 
@@ -54,6 +65,6 @@
 }
 
 .priceuslugi-item:first-child .priceuslugi-link {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
 }

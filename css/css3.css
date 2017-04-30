@@ -32,7 +32,8 @@
 @import "blocks/footer.css"; 
 @import "blocks/mailing.css"; 
 @import "blocks/social.css"; 
-@import "blocks/copyright.css"; 
+@import "blocks/copyright.css";
+@import "blocks/modal-appointment.css";
 
 
 * {

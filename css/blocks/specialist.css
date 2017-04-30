@@ -1,8 +1,14 @@
-.specialist-foto {
+
+.specialist-title {
+	margin-bottom: 28px;
+}
+
+.block-specialist .specialist-foto {
+	margin-bottom: 3px;
 	text-align: center;
 }
 
-.specialist-name {
+.block-specialist .specialist-name {
 	padding: 0 50px;
 	font-family: 'FedraSansPro-Normal', sans-serif;
 	font-size: 18px;
@@ -10,21 +16,22 @@
 	text-align: center;
 }
 
-.specialist-name span {
+.block-specialist .specialist-name span {
 	text-transform: uppercase;
 }
 
-.specialist-position {
+.block-specialist .specialist-position {
 	padding: 0 16px;
+	margin-bottom: 17px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
-	line-height: 28px;
+	line-height: 24px;
 	font-weight: normal;
 	font-style: italic;
 	text-align: center;
 }
 
-.specialist-specialization-wrapper {
+.block-specialist .specialist-specialization-wrapper {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
@@ -32,20 +39,21 @@
 	margin-bottom: 10px;
 }
 
-.specialist-specialization-title {
-	padding-left: 10px;
+.block-specialist .specialist-specialization-title {
+
 	font-weight: bold;
 }
 
-.specialist-specialization-list {
+.block-specialist .specialist-specialization-list {
 	padding-left: 12px;
+	margin-bottom: 20px;
 }
 
-.specialist-specialization-list li {
+.block-specialist .specialist-specialization-list li {
 	position: relative;
 }
 
-.specialist-specialization-list li::after {
+.block-specialist .specialist-specialization-list li::after {
 	position: absolute;
 	content: '-';
 	width: 6px;
@@ -54,20 +62,25 @@
 	left: -10px;
 }
 
-.specialist-about-wrapper {
+.block-specialist .specialist-about-wrapper {
 	padding-left: 12px;
+	margin-bottom: 23px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: normal;
 }
 
-.specialist-about-list li {
-	padding-bottom: 10px;
+.block-specialist .specialist-about-list li {
+	padding-bottom: 22px;
 	position: relative;
 }
 
-.specialist-about-list li::after {
+.block-specialist .specialist-about-list li:last-child {
+	padding-bottom: 0;
+}
+
+.block-specialist .specialist-about-list li::after {
 	position: absolute;
 	content: '.';
 	width: 1px;
@@ -76,34 +89,36 @@
 	left: -10px;
 }
 
-.specialist-description {
+.block-specialist .specialist-description {
+	margin-bottom: 28px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
+
 }
 
-.specialist-honors-wrapper {
+.block-specialist .specialist-honors-wrapper {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: normal;
 }
 
-.specialist-honors-title {
-	padding-left: 10px;
+.block-specialist .specialist-honors-title {
+	margin-bottom: 21px;
 	font-weight: bold;
 }
 
-.specialist-honors-list {
-	padding-left: 12px;
+.block-specialist .specialist-honors-list {
+	padding-left: 9px;
 }
 
-.specialist-honors-list li {
-	padding-bottom: 10px;
+.block-specialist .specialist-honors-list li {
+	padding-bottom: 23px;
 	position: relative;
 }
 
-.specialist-honors-list li::after {
+.block-specialist .specialist-honors-list li::after {
 	position: absolute;
 	content: '.';
 	width: 1px;

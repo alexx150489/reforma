@@ -2,9 +2,14 @@
 	margin-bottom: 30px;
 }
 
+.iwant-title {
+	margin-bottom: 21px;
+}
+
 .iwant-social {
 	width: 296px;
 	margin: 0 auto;
+	margin-bottom: 29px;
 	font-size: 0;
 }
 
@@ -68,9 +73,11 @@
 	border-radius: 26px;
 	overflow: hidden;
 	text-align: center;
+	margin-bottom: 24px;
 }
 
 .iwant-description {
+	margin-bottom: 28px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
@@ -78,7 +85,7 @@
 }
 
 .iwant-description p {
-	margin-bottom: 10px;
+	margin-bottom: 23px;
 }
 
 .iwant-description p:last-child {
@@ -98,11 +105,6 @@
 .iwant-item:first-child .iwant-question {
 	border-top: 2px solid #a0d2a6;
 	border-bottom: 2px solid #a0d2a6;
-}
-
-.iwant-question-title {
-	position: relative;
-	cursor: pointer;
 }
 
 .iwant-question-title::after {
@@ -129,25 +131,33 @@
 }
 
 .iwant-question-title {
+	padding: 16px 0;
+	position: relative;
+	cursor: pointer;
 	font-family: 'PTSansPro-CaptionBold', sans-serif;
 	font-size: 15px;
 	line-height: 24px;
 	color: #000;
 }
 
+.iwant-answer {
+	padding-top: 14px;
+}
+
 .iwant-answer-title {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
-	line-height: 28px;
+	line-height: 22px;
 	font-weight: bold;
 	font-style: italic;
 	color: #000;
 }
 
 .iwant-answer p {
+	margin-bottom: 23px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
-	line-height: 28px;
+	line-height: 22px;
 	font-weight: normal;
 	color: #000;
 }
@@ -157,6 +167,10 @@
 }
 
 /*	Специалист	*/
+
+.iwant-answer .specialist {
+	margin-bottom: 25px;
+}
 
 .iwant-answer .specialist-name {
 	text-align: center;
@@ -173,6 +187,11 @@
 
 .iwant-answer .specialist-name span {
 	text-transform: uppercase;
+}
+
+.iwant-answer .specialist-foto {
+	margin-bottom: 8px;
+	text-align: center;
 }
 
 .iwant-answer .specialist-link {

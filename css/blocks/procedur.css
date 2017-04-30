@@ -1,6 +1,11 @@
+.procedur-title.title {
+	margin-bottom: 23px;
+}
+
 .procedur-social {
 	width: 296px;
 	margin: 0 auto;
+	margin-bottom: 20px;
 	font-size: 0;
 }
 
@@ -60,7 +65,11 @@
 	background: url("../../images/sprite.png") -609px -5px no-repeat;
 }
 
+.procedur-menu-wrapper {
+	margin-bottom: 33px;
+}
 .procedur-menu-title {
+	margin-bottom: 25px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
@@ -85,11 +94,19 @@
 	background: url("../../images/sprite.png") -1267px -5px no-repeat;
 }
 
+.procedur-foto {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
 .procedur-info {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: normal;
+}
+.procedur-info p {
+	margin-bottom: 21px;	
 }
 .procedur-info b {
 	font-size: 15px;

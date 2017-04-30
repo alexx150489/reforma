@@ -1,6 +1,3 @@
-.block-contacts {
-	padding: 0 13px;
-}
 
 .contacts-town-switcher {
 	width: 100%;
@@ -12,7 +9,8 @@
 }
 
 .contacts-title {
-	margin-bottom: 25px;
+	margin-bottom: 28px;
+	padding-top: 8px;
 }
 
 .contacts-town {
@@ -35,17 +33,16 @@
 
 .contacts-stations {
 	font-size: 0;
+	margin-bottom: 21px;
+	text-align: center;
 }
 
-.contacts-stations {
-	margin-bottom: 21px;
-}
+
 
 .contacts-station {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 24px;
-
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 15px;
 	line-height: 28px;
@@ -63,6 +60,8 @@
 }
 
 .contacts-info {
+	width: 296px;
+	margin: 0 auto;
 	padding-left: 31px;
 	margin-bottom: 28px;
 	font-family: 'PT Sans Caption', sans-serif;
@@ -73,11 +72,14 @@
 }
 
 .contacts-adress {
-	position: relative;
 	margin-bottom: 9px;
 }
 
-.contacts-adress::after {
+.contacts-adress span {
+	position: relative;
+}
+
+.contacts-adress span::after {
 	position: absolute;
 	content: '';
 	width: 20px;
@@ -94,11 +96,14 @@
 }
 
 .contacts-working-hours {
-	position: relative;
 	margin-bottom: 10px;
 }
 
-.contacts-working-hours::after {
+.contacts-working-hours span {
+	position: relative;
+}
+
+.contacts-working-hours span::after {
 	position: absolute;
 	content: '';
 	width: 19px;
@@ -109,12 +114,16 @@
 }
 
 .contacts-tel {
-	position: relative;
+
 	color: #578322;
 	font-weight: bold;
 }
 
-.contacts-tel::after {
+.contacts-tel span {
+	position: relative;
+}
+
+.contacts-tel span::after {
 	position: absolute;
 	content: '';
 	width: 19px;

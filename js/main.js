@@ -48,4 +48,27 @@ $(document).ready(function() {
 		slidesToScroll: 1
 	});
 
+// gallery
+	$('.clinic-gallery-js').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: true,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1
+	});
+
+
+	// modal-appointment http://fancybox.net/ >>>
+	$(".appointment-js").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false,
+		'width': 320,
+		'padding' : 0
+	});
+
 });

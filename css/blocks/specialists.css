@@ -1,38 +1,101 @@
-.block-specialists .site-wrap {
+.site-wrap.specialists {
 	padding: 0 13px;
 }
 
+.specialists-title {
+	margin-bottom: 15px;
+}
 
-
+.specialists-description {
+	margin-bottom: 29px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+}
 
 .specialists-description p {
-	margin-bottom: 10px;
+	margin-bottom: 22px;
 }
 .specialists-description p:last-child {
 	margin-bottom: 0;
 }
 
-.specialists-filter-wrapper {
+.specialists-filter-form {
 	width: 100%;
+	margin-bottom: 33px;
 }
 
-.specialists-filter-wrapper select {
+.specialists-filter-form select {
 	width: 100%;
-}
-
-.specialists-filter-wrapper button {
-	width: 100%;
-}
-
-.specialists-item .specialist-name {
+	display: inline-block;
+	padding: 14px 0;
+	padding-left: 49px;
+	padding-left: 53px;
+	margin-bottom: 20px;
+	border: 1px solid #aaaaaa;
+	border-radius: 7px;
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: uppercase;
 	text-align: center;
+	color: #000;
+	cursor: pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+}
+
+.specialists-filter-form .select-wrapper {
+	margin-bottom: 20px;
+}
+.specialists-filter-form .select-wrapper select:last-child {
+	margin-bottom: 0;
+}
+
+
+.specialists-filter-form select.filter-specialization {
+	background: url("../../images/select-down-icon.png") right 14px top 50% / 10px no-repeat, url("../../images/medical-specialist.png") 15px center no-repeat;
+}
+
+.specialists-filter-form select.filter-clinic {
+	background: url("../../images/select-down-icon.png") right 14px top 50% / 10px no-repeat, url("../../images/hospital-buildings.png") 14px center no-repeat;
+}
+
+
+
+.specialists-filter-form .filter-submit {
+	width: 100%;
+	display: inline-block;
+	padding: 15px 0;
+	border: 1px solid #a1a4a5;
+	border-radius: 7px;
+	background-color: #606060;
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.specialists-item {
+	margin-bottom: 22px;
+}
+
+.specialists-item .specialist-foto {
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 .specialists-item .specialist-name {
-	padding: 0 60px;
+	margin-bottom: 3px;
 	font-family: 'FedraSansPro-Normal', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
+	text-align: center;
 	text-align: center;
 	color: #000;
 }
@@ -52,6 +115,7 @@
 
 .specialists-item .specialist-link {
 	display: block;
+	padding-top: 4px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 15px;
 	line-height: 22px;

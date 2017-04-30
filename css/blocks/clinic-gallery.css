@@ -1,0 +1,75 @@
+.block-clinic-gallery {
+	padding: 0 13px;
+	padding-top: 30px;
+	padding-bottom: 51px;
+}
+
+
+.block-clinic-gallery .slide-image {
+	width: 202px;
+	height: 170px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.block-clinic-gallery .slick-dots {
+	bottom: -47px;
+}
+
+.block-clinic-gallery .slick-dots li {
+	width: 14px;
+	margin-right: 5px;
+}
+
+.block-clinic-gallery .slick-dots li button {
+	border: 1px solid #606060;
+	border-radius: 50%;
+	padding: 4px;
+}
+
+.block-clinic-gallery .slick-dots li button:before {
+	content: '';
+}
+
+.block-clinic-gallery .slick-dots li.slick-active button {
+	background-color: #606060;
+}
+
+.block-clinic-gallery .slick-dots li button {
+	width: 8px;
+	height: 8px;
+}
+
+.block-clinic-gallery .slick-next {
+	top: 50%px;
+	right: -5px;
+	z-index: 999;
+}
+
+.block-clinic-gallery .slick-prev {
+	top: 50%px;
+	left: -1px;
+	z-index: 999;
+}
+
+.block-clinic-gallery .slick-prev:before, .block-clinic-gallery .slick-next:before {
+	display: block;
+	content: '';
+	width: 14px;
+	height: 24px;
+}
+
+.block-clinic-gallery .slick-dotted.slick-slider {
+	margin-bottom: 15px;
+}
+
+.block-clinic-gallery .slick-next:before {
+	background: url("../../images/sprite.png") -1399px -5px no-repeat;
+}
+
+.block-clinic-gallery .slick-prev:before {
+	background: url("../../images/sprite.png") -1375px -5px no-repeat;
+}
+
+

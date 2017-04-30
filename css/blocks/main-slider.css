@@ -3,6 +3,7 @@
 	height: 386px;
 	margin: 0 auto;
 	background-color: #000;
+	overflow: hidden;
 }
 
 .slide {

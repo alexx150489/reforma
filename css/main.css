@@ -30,7 +30,7 @@ input {outline:none;}
 /* General */
 main {min-height:100%; min-width:320px; position:relative;}
 .clear.clear-footer {height:100px;}
-.site-wrap {width:320px; margin:0px auto;}
+.site-wrap {width:320px; padding: 0 13px; margin:0px auto;}
 
 
 /* Header */

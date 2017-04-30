@@ -8,10 +8,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">	
 		<link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
 		<link rel="stylesheet" href="../css/normalize.css">
 		<link rel="stylesheet" href="../js/vendor/fancybox/jquery.fancybox.css">
 		<link rel="stylesheet" href="../css/fonts.css">
+		<link rel="stylesheet" href="../css/slick.js/slick.css">
+		<link rel="stylesheet" href="../css/slick.js/slick-theme.css">
 		<link rel="stylesheet" href="../css/css3.css">
 		<link rel="stylesheet" href="../css/main.css">
 		
@@ -20,6 +23,7 @@
 		<script src="../js/vendor/jquery-migrate-1.4.1.min.js"></script>
 		<script src="../js/vendor/jquery.form.min.js"></script>
 		<script src="../js/vendor/fancybox/jquery.fancybox.pack.js"></script>
+		<script src="../js/vendor/slick.js/slick.min.js"></script>
 		<script src="../js/main.js"></script>
 	</head>
 	
@@ -132,7 +136,7 @@
 
 					</section>
 
-					<a class="content-appointment button">Записаться на приём</a>
+					<a class="content-appointment button appointment-js" href="#show">Записаться на приём</a>
 
 					<div class="block-star">
 						<div class="star-description"><span>Звезда рекомендует:</span></div>
@@ -145,7 +149,38 @@
 					<a class="content-all-services button">Просмотреть все услуги</a>
 
 				</div>
-				
+					<div class="block-modal-appointment" id="show">
+						<div class="modal-appointment-wrapper">
+							<div class="modal-appointment-title">Записаться на прием</div>
+							<form class="modal-appointment-form " action="">
+								<div class="form-group">
+									<input class="modal-appointment-name form-element" type="text" placeholder="Имя">
+									<input class="modal-appointment-tel form-element" type="tel" placeholder="Телефон">
+									<select class="modal-appointment-procedure form-element" name="">
+										<option value="" disabled selected style='display:none;'>Специализация</option>
+										<option value="filter-specialization">Значение 1</option>
+										<option value="filter-specialization">Значение 2</option>
+									</select>
+								</div>
+								<div class="form-group clearfix">
+									<select class="modal-appointment-date form-element" name="">
+										<option value="" disabled selected style='display:none;'>Дата</option>
+										<option value="filter-specialization">Значение 1</option>
+										<option value="filter-specialization">Значение 2</option>
+									</select>
+									<select class="modal-appointment-time form-element" name="">
+										<option value="" disabled selected style='display:none;'>Время</option>
+										<option value="filter-specialization">Значение 1</option>
+										<option value="filter-specialization">Значение 2</option>
+									</select>
+								</div>
+								<div class="form-group clearfix">
+									<div class="modal-appointment-tip"><span>*</span> - Обязательные для заполнения поля</div>
+									<button class="modal-appointment-submit" type="submit">Отправить</button>
+								</div>
+							</form>
+						</div>
+					</div>
 				<!--<div class="clear clear-footer"></div>-->
 			</section>
 

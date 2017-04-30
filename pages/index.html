@@ -137,10 +137,6 @@
 								
 							</div>
 						</div>
-				
-
-
-
 
 						<div class="block-services">
 						<h2 class="services-title title">Выберете направление услуг</h2>
@@ -244,21 +240,57 @@
 									<div class="contacts-station">Сокол</div>
 								</div>
 								<div class="contacts-info">
-									<div class="contacts-adress">Пестовский пер., д.5<a href="">Схема</a></div>
-									<div class="contacts-working-hours">пнд-вскр 9:00 - 21:00</div>
-									<div class="contacts-tel">+7 (495) 266 79 57</div>
+									<div class="contacts-adress"><span>Пестовский пер., д.5</span><a href="">Схема</a></div>
+									<div class="contacts-working-hours"><span>пнд-вскр 9:00 - 21:00</span></div>
+									<div class="contacts-tel"><span>+7 (495) 266 79 57</span></div>
 								</div>
-								<div class="contacts-map"></div>
+								<div class="contacts-map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.739820560401!2d37.657252615930254!3d55.74564948055145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ae94d6faf05%3A0x5ceb8230678431bb!2z0J_QtdGB0YLQvtCy0YHQutC40Lkg0L_QtdGALiwgNSwg0JzQvtGB0LrQstCwLCAxMDkwMDQ!5e0!3m2!1sru!2sru!4v1493530333661" width="292" height="345" frameborder="0" style="border:0" allowfullscreen></iframe>
+								</div>
 						</section>
 
 						<div class="content-wrapper">
-							<a class="content-appointment button">Записаться на приём</a>
+							<a class="content-appointment button appointment-js" href="#av">Записаться на приём</a>
 						</div>
 
 
 					</section>
 
+
 				</div>
+
+					<div class="block-modal-appointment" id="av">
+						<div class="modal-appointment-wrapper">
+							<div class="modal-appointment-title">Записаться на прием</div>
+							<form class="modal-appointment-form " action="">
+								<div class="form-group">
+									<input class="modal-appointment-name form-element" type="text" placeholder="Имя">
+									<input class="modal-appointment-tel form-element" type="tel" placeholder="Телефон">
+									<select class="modal-appointment-procedure form-element" name="">
+										<option value="" disabled selected style='display:none;'>Специализация</option>
+										<option value="filter-specialization">Значение 1</option>
+										<option value="filter-specialization">Значение 2</option>
+									</select>
+								</div>
+								<div class="form-group clearfix">
+									<select class="modal-appointment-date form-element" name="">
+										<option value="" disabled selected style='display:none;'>Дата</option>
+										<option value="filter-specialization">Значение 1</option>
+										<option value="filter-specialization">Значение 2</option>
+									</select>
+									<select class="modal-appointment-time form-element" name="">
+										<option value="" disabled selected style='display:none;'>Время</option>
+										<option value="filter-specialization">Значение 1</option>
+										<option value="filter-specialization">Значение 2</option>
+									</select>
+								</div>
+								<div class="form-group clearfix">
+									<div class="modal-appointment-tip"><span>*</span> - Обязательные для заполнения поля</div>
+									<button class="modal-appointment-submit" type="submit">Отправить</button>
+								</div>
+							</form>
+						</div>
+					</div>
 				<!--<div class="clear clear-footer"></div>-->
 			</section>
 

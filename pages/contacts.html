@@ -8,10 +8,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">	
 		<link rel="shortcut icon" href="../favicon.png" type="image/x-icon" />
 		<link rel="stylesheet" href="../css/normalize.css">
 		<link rel="stylesheet" href="../js/vendor/fancybox/jquery.fancybox.css">
 		<link rel="stylesheet" href="../css/fonts.css">
+		<link rel="stylesheet" href="../css/slick.js/slick.css">
+		<link rel="stylesheet" href="../css/slick.js/slick-theme.css">
 		<link rel="stylesheet" href="../css/css3.css">
 		<link rel="stylesheet" href="../css/main.css">
 		
@@ -20,6 +23,7 @@
 		<script src="../js/vendor/jquery-migrate-1.4.1.min.js"></script>
 		<script src="../js/vendor/jquery.form.min.js"></script>
 		<script src="../js/vendor/fancybox/jquery.fancybox.pack.js"></script>
+		<script src="../js/vendor/slick.js/slick.min.js"></script>
 		<script src="../js/main.js"></script>
 	</head>
 	
@@ -62,16 +66,15 @@
 							</div>
 						</nav>
 					</div>
-
 				</div>
 			</header>
 			<!--HEADER-END-->
 
 			<section class="block-content">
-				<div class="site-wrap">
+				<div class="site-wrap contacts">
 
 					<div class="block-breadcrumbs">
-						<a class="breadcrumbs-link" href="">Главная</a>	/	<a class="breadcrumbs-link" href="">О клиниках</a> / <span>Контакты</span>
+						<a class="breadcrumbs-link" href="">Главная</a>	/	<a class="breadcrumbs-link" href="">О клиниках</a> / <span class="breadcrumbs-current">Контакты</span>
 					</div>
 
 					<section class="block-contacts">
@@ -87,39 +90,107 @@
 								<div class="contacts-station">Сокол</div>
 							</div>
 							<div class="contacts-info">
-								<div class="contacts-adress">Пестовский пер., д.5<a href="">Схема</a></div>
-								<div class="contacts-working-hours">пнд-вскр 9:00 - 21:00</div>
-								<div class="contacts-tel">+7 (495) 266 79 57</div>
+								<div class="contacts-adress"><span>Пестовский пер., д.5</span><a href="">Схема</a></div>
+								<div class="contacts-working-hours"><span>пнд-вскр 9:00 - 21:00</span></div>
+								<div class="contacts-tel"><span>+7 (495) 266 79 57</span></div>
 							</div>
-							<div class="contacts-map"></div>
-					</section>
+							<div class="contacts-map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.739820560401!2d37.657252615930254!3d55.74564948055145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ae94d6faf05%3A0x5ceb8230678431bb!2z0J_QtdGB0YLQvtCy0YHQutC40Lkg0L_QtdGALiwgNSwg0JzQvtGB0LrQstCwLCAxMDkwMDQ!5e0!3m2!1sru!2sru!4v1493530333661" width="292" height="345" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+						</section>
 
-							<div class="block-write-us">
+						<div class="block-write-us">
+							<div class="write-us-wrapper">
 								<div class="write-us-title">Написать директору по развитию</div>
-								<form class="write-us-form clearfix" action="">
-									<input class="write-us-email form-element" type="email" placeholder="Email">
-									<input class="write-us-tel form-element" type="tel" placeholder="Телефон">
-									<input class="write-us-name form-element" type="text" placeholder="Ф.И.О">
-									<textarea class="write-us-text form-element" name="" id="" cols="30" rows="10">Комментарий</textarea>
-									<div class="write-us-tip">* - Обязательные для заполнения поля</div>
-									<input class="write-us-submit" type="submit" value="Отправить">
+								<form class="write-us-form " action="">
+									<div class="form-group">
+										<input class="write-us-email form-element" type="email" placeholder="Email">
+										<input class="write-us-tel form-element" type="tel" placeholder="Телефон">
+										<input class="write-us-name form-element" type="text" placeholder="Ф.И.О">
+									</div>
+									<div class="form-group">
+										<textarea class="write-us-text form-element" name="" id="" cols="30" rows="10" placeholder="Комментарий"></textarea>
+									</div>
+									<div class="form-group clearfix">
+										<div class="write-us-tip"><span>*</span> - Обязательные для заполнения поля</div>
+										<button class="write-us-submit" type="submit">Отправить</button>
+									</div>
 								</form>
 							</div>
-
-							<div class="block-clinic-gallery"></div>
-
 						</div>
 
 
+						<div class="block-clinic-gallery">
 
-					<a class="content-appointment button">Записаться на приём</a>
+							<div class="clinic-gallery-wrapper clinic-gallery-js">
+
+								<div class="slide">
+									<div class="slide-image">
+										<img src="../images/gallery-foto.jpg" width="202" height="170" alt="Фотография клиники">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="slide-image">
+										<img src="../images/gallery-foto.jpg" width="202" height="170" alt="Фотография клиники">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="slide-image">
+										<img src="../images/gallery-foto.jpg" width="202" height="170" alt="Фотография клиники">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="slide-image">
+										<img src="../images/gallery-foto.jpg" width="202" height="170" alt="Фотография клиники">
+									</div>
+								</div>
+								
+						</div>
+					</div>
 
 
+				<a class="content-appointment button appointment-js" href="#show">Записаться на приём</a>
+
+
+				<div class="block-modal-appointment" id="show">
+					<div class="modal-appointment-wrapper">
+						<div class="modal-appointment-title">Записаться на прием</div>
+						<form class="modal-appointment-form " action="">
+							<div class="form-group">
+								<input class="modal-appointment-name form-element" type="text" placeholder="Имя">
+								<input class="modal-appointment-tel form-element" type="tel" placeholder="Телефон">
+								<select class="modal-appointment-procedure form-element" name="">
+									<option value="" disabled selected style='display:none;'>Специализация</option>
+									<option value="filter-specialization">Значение 1</option>
+									<option value="filter-specialization">Значение 2</option>
+								</select>
+							</div>
+							<div class="form-group clearfix">
+								<select class="modal-appointment-date form-element" name="">
+									<option value="" disabled selected style='display:none;'>Дата</option>
+									<option value="filter-specialization">Значение 1</option>
+									<option value="filter-specialization">Значение 2</option>
+								</select>
+								<select class="modal-appointment-time form-element" name="">
+									<option value="" disabled selected style='display:none;'>Время</option>
+									<option value="filter-specialization">Значение 1</option>
+									<option value="filter-specialization">Значение 2</option>
+								</select>
+							</div>
+							<div class="form-group clearfix">
+								<div class="modal-appointment-tip"><span>*</span> - Обязательные для заполнения поля</div>
+								<button class="modal-appointment-submit" type="submit">Отправить</button>
+							</div>
+						</form>
+					</div>
 				</div>
 				
-				<!--<div class="clear clear-footer"></div>-->
+				</div>
+<!--<div class="clear clear-footer"></div>-->
 			</section>
-
 
 		</main>
 

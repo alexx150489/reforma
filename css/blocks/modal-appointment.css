@@ -1,0 +1,125 @@
+.block-modal-appointment {
+	display: none;
+	width: 320px;
+	margin: 0 auto;
+	padding-top: 24px;
+	padding-bottom: 33px;
+	background-color: #fff;
+	z-index: 999999;
+}
+
+.modal-appointment-wrapper {
+	position: relative;
+	padding: 0 13px;
+}
+
+.modal-appointment-title {
+	margin-bottom: 14px;
+	font-family: 'FedraSansPro-Normal', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.modal-appointment-form input, .modal-appointment-form select {
+	padding: 8px 0;
+	padding-left: 10px;
+	margin-bottom: 21px;
+}
+
+.modal-appointment-form select {
+	font-family: 'PTSansPro-LightItalic', sans-serif;
+	font-size: 15px;
+	color: #606060;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background: #cdcdcd url("../../images/select-down-icon.png") right 14px top 50% / 10px no-repeat;
+}
+
+.modal-appointment-name {
+	width: 100%;
+}
+
+.modal-appointment-tel {
+	width: 100%;
+}
+
+.modal-appointment-procedure {
+	width: 100%;
+}
+
+.modal-appointment-date {
+	width: 136px;
+	display: inline-block;
+	float: left;
+}
+
+.modal-appointment-time {
+	width: 136px;
+	display: inline-block;
+	float: right;
+}
+
+
+.modal-appointment-tip {
+	float: left;
+	width: 148px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.modal-appointment-tip span {
+	color: #d84138;
+}
+
+.modal-appointment-submit {
+	float: right;
+	display: inline-block;
+	padding: 1px 13px;
+	border: none;
+	font-family: 'FedraSansPro-Normal', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	background-color: #606060;
+}
+
+.modal-appointment-form input::-webkit-input-placeholder {		
+	font-family: 'PTSansPro-LightItalic', sans-serif;
+	font-size: 15px;
+}
+.modal-appointment-form input::-moz-placeholder {
+	font-family: 'PTSansPro-LightItalic', sans-serif;
+	font-size: 15px;
+}
+.modal-appointment-form input:-ms-input-placeholder	{
+	font-family: 'PTSansPro-LightItalic', sans-serif;
+	font-size: 15px;
+}
+
+.modal-appointment-form textarea::-webkit-input-placeholder {		
+	font-family: 'PTSansPro-LightItalic', sans-serif;
+	font-size: 15px;
+}
+.modal-appointment-form textarea::-moz-placeholder {
+	font-family: 'PTSansPro-LightItalic', sans-serif;
+	font-size: 15px;
+}
+.modal-appointment-form textarea:-ms-input-placeholder	{
+	font-family: 'PTSansPro-LightItalic', sans-serif;
+	font-size: 15px;
+}
+
+.fancybox-close	{
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	top: 15px;
+	right: 13px;
+	background: url("../../images/sprite.png") -62px -58px no-repeat;
+}

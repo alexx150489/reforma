@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="ru">
 	<head>
 		<title>Главная</title>
 
@@ -8,10 +8,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">	
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css">
 		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/slick.js/slick.css">
+		<link rel="stylesheet" href="css/slick.js/slick-theme.css">
 		<link rel="stylesheet" href="css/css3.css">
 		<link rel="stylesheet" href="css/main.css">
 		
@@ -20,12 +23,13 @@
 		<script src="js/vendor/jquery-migrate-1.4.1.min.js"></script>
 		<script src="js/vendor/jquery.form.min.js"></script>
 		<script src="js/vendor/fancybox/jquery.fancybox.pack.js"></script>
+		<script src="js/vendor/slick.js/slick.min.js"></script>
 		<script src="js/main.js"></script>
 	</head>
 	
 	<body>
 
-
+	<div class="container">
 		<main>
 
 			<!--HEADER-->
@@ -36,102 +40,305 @@
 							<div class="header-logo">
 								<a href="#"><img src="images/logo.png" width="161" height="57" alt="Логотип" /></a>
 							</div>
-							<div class="header-tel">+7 (495) 266-79-58</div>
+							<div id="header-tel-js" class="header-tel">+7 (495) 266-79-58</div>
 						</div>
-						<div class="header-buttons-wrapper">
-							<a class="header-search">Поиск</a>
-							<a class="header-touch-menu">Меню</a>
+						<div class="header-buttons-wrapper clearfix">
+							<a class="header-search-icon"></a>
+							<a id="close-icon-js" class="header-close-icon"></a>
+							<a id="burger-icon-js" class="header-burger-icon"></a>
 						</div>
+
+						<nav id="navigation-js" class="header-navigation">
+							<ul class="header-navigation-menu">
+								<li class="menu-item"><a class="menu-link" href="#">Процедуры</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">О клиниках</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Акции</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Новости</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Отзывы</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Контакты</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Цены</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">Сми о нас</a></li>
+							</ul>
+							<div class="header-contacts">
+								<div class="header-contacts-towns">
+									<span class="header-contacts-town active">Москва</span> / <span class="header-contacts-town">Екатеринбург</span>
+								</div>
+								<div class="header-contacts-tel"><span>+7 (495) 266 79 57</span></div>
+							</div>
+						</nav>
 					</div>
-					<nav class="header-main-navigation">
-						<ul>
-							<li><a href="#">Текст_1</a></li>
-							<li><a href="#">Текст_2</a></li>
-							<li><a href="#">Текст_3</a></li>
-							<li><a href="#">Текст_4</a></li>
-							<li><a href="#">Текст_5</a></li>
-						</ul>
-						<div class="header-contacts"></div>
-					</nav>
+
 				</div>
 			</header>
 			<!--HEADER-END-->
 
-			<section class="middle">
+			<section class="block-content">
 				<div class="site-wrap">
 
-					<div class="block-breadcrumbs">
-						<a href="">Главная</a>/<a href="">О клиниках</a>/ Лизнензии
-					</div>
+					<section class="block-main">
 
-					<div class="block-licenzies">
-						<h2 class="licenzies-title"></h2>
-						<h3 class="licenzies-subtitle"></h3>
-						<div class="licenzies-items">
-							<div class="licenzies-item"></div>
-							<div class="licenzies-item"></div>
+						<div class="block-main-slider">
+							<div class="main-slider-wrapper main-slider-js">
+
+								<div class="slide">
+									<h2 class="main-slider-title">Авторские клиники Натальи Михайловой</h2>
+									<div class="main-slider-image">
+										<img src="images/main-slider-photo.jpg" alt="Слайд" width="320" height="386">
+									</div>
+								</div>
+
+								<div class="slide">
+									<h2 class="main-slider-title">Авторские клиники Натальи Михайловой</h2>
+									<div class="main-slider-image">
+										<img src="images/main-slider-photo.jpg" alt="Слайд" width="320" height="386">
+									</div>
+								</div>
+
+								<div class="slide">
+									<h2 class="main-slider-title">Авторские клиники Натальи Михайловой</h2>
+									<div class="main-slider-image">
+										<img src="images/main-slider-photo.jpg" alt="Слайд" width="320" height="386">
+									</div>
+								</div>
+
+								<div class="slide">
+									<h2 class="main-slider-title">Авторские клиники Натальи Михайловой</h2>
+									<div class="main-slider-image">
+										<img src="images/main-slider-photo.jpg" alt="Слайд" width="320" height="386">
+									</div>
+								</div>
+
+								<div class="slide">
+									<h2 class="main-slider-title">Авторские клиники Натальи Михайловой</h2>
+									<div class="main-slider-image">
+										<img src="images/main-slider-photo.jpg" alt="Слайд" width="320" height="386">
+									</div>
+								</div>
+
+								<div class="slide">
+									<h2 class="main-slider-title">Авторские клиники Натальи Михайловой</h2>
+									<div class="main-slider-image">
+										<img src="images/main-slider-photo.jpg" alt="Слайд" width="320" height="386">
+									</div>
+								</div>
+
+								<div class="slide">
+									<h2 class="main-slider-title">Авторские клиники Натальи Михайловой</h2>
+									<div class="main-slider-image">
+										<img src="images/main-slider-photo.jpg" alt="Слайд" width="320" height="386">
+									</div>
+								</div>
+
+								<div class="slide">
+									<h2 class="main-slider-title">Авторские клиники Натальи Михайловой</h2>
+									<div class="main-slider-image">
+										<img src="images/main-slider-photo.jpg" alt="Слайд" width="320" height="386">
+									</div>
+								</div>
+								
+							</div>
 						</div>
-						<div class="licenzies-item">
-							<div class="licenzies-item"></div>
-							<div class="licenzies-item"></div>
+
+						<section class="block-services">
+						<h2 class="services-title title">Выберете направление услуг</h2>
+							<div class="services-items">
+								<a class="services-item" href="#">
+									<div class="services-item-image section1"></div>
+									<h3 class="services-item-title">Пластическая хирургия</h3>
+								</a>
+								<a class="services-item column2" href="#">
+									<div class="services-item-image section2"></div>
+									<h3 class="services-item-title">Аппаратная косметология</h3>
+								</a>
+								<a class="services-item" href="#">
+									<div class="services-item-image section3"></div>
+									<h3 class="services-item-title">Лазерный центр</h3>
+								</a>
+								<a class="services-item column2" href="#">
+									<div class="services-item-image section4"></div>
+									<h3 class="services-item-title">Инъекционная косметология</h3>
+								</a>
+								<a class="services-item" href="#">
+									<div class="services-item-image section5"></div>
+									<h3 class="services-item-title">Эстетическая косметология</h3>
+								</a>
+								<a class="services-item column2" href="#">
+									<div class="services-item-image section6"></div>
+									<h3 class="services-item-title">Подология</h3>
+								</a>
+							</div>
+						</section>
+
+						<section class="block-model">
+							<h2 class="model-title title">Я хочу</h2>
+							<div class="model-image">
+								<a class="model-point point1" href="#"></a>
+								<a class="model-point point2" href="#"></a>
+								<a class="model-point point3" href="#"></a>
+								<a class="model-point point4" href="#"></a>
+								<a class="model-point point5" href="#"></a>
+								<a class="model-point point6" href="#"></a>
+								<a class="model-point point7" href="#"></a>
+								<a class="model-point point8" href="#"></a>
+								<a class="model-point point9" href="#"></a>
+								<a class="model-point point10" href="#"></a>
+								<a class="model-point point11" href="#"></a>
+								<a class="model-point point12" href="#"></a>
+								<a class="model-point point13" href="#"></a>
+							</div>
+							<a class="model-link" href="#">О Клиниках</a>
+						</section>
+
+						<div class="block-actions-slider">
+							<h2 class="actions-slider-title title">Акции<br> и спецпредложения</h2>
+
+							<div class="actions-slider-wrapper actions-slider-js">
+
+								<div class="slide">
+									<div class="slide-image"></div>
+									<h2 class="slide-title">Авторский метод одномоментного лифтинга лица и подтяжки шеи на аппарате Cynosure Smartlipo TriPlex всего за 49 900 руб.</h2>
+									<time class="slide-date" datetime="2017-03-01">01.03.2017</time>
+								</div>
+
+								<div class="slide">
+									<div class="slide-image"></div>
+									<h2 class="slide-title">Авторский метод одномоментного лифтинга лица и подтяжки шеи на аппарате Cynosure Smartlipo TriPlex всего за 49 900 руб.</h2>
+									<time class="slide-date" datetime="2017-03-01">01.03.2017</time>
+								</div>
+
+								<div class="slide">
+									<div class="slide-image"></div>
+									<h2 class="slide-title">Авторский метод одномоментного лифтинга лица и подтяжки шеи на аппарате Cynosure Smartlipo TriPlex всего за 49 900 руб.</h2>
+									<time class="slide-date" datetime="2017-03-01">01.03.2017</time>
+								</div>
+
+								<div class="slide">
+									<div class="slide-image"></div>
+									<h2 class="slide-title">Авторский метод одномоментного лифтинга лица и подтяжки шеи на аппарате Cynosure Smartlipo TriPlex всего за 49 900 руб.</h2>
+									<time class="slide-date" datetime="2017-03-01">01.03.2017</time>
+								</div>
+								
+							</div>
+
+							<a class="actions-slider-show-all button" href="#">Все акции и спецпредложения</a>
 						</div>
-						<div class="licenzies-items">
-							<div class="licenzies-item"></div>
+
+						<div class="content-links-wrapper">
+							<a href="#">Бутик</a>
+							<a href="#">Медиа</a>
 						</div>
-					</div>
 
-					<a class="appointment button"></a>
+						<section class="block-contacts">
+							<h2 class="contacts-title title">Контакты</h2>
+							<div class="contacts-wrapper">
+								<div class="contacts-town-switcher">
+									<div class="contacts-town active">Москва</div>
+									<div class="contacts-town">Екатеринбург</div>
+								</div>
+								<div class="contacts-stations">
+									<div class="contacts-station active">Таганская</div>
+									<div class="contacts-station">Новослободская</div>
+									<div class="contacts-station">Сокол</div>
+								</div>
+								<div class="contacts-info">
+									<div class="contacts-adress"><span>Пестовский пер., д.5</span><a href="">Схема</a></div>
+									<div class="contacts-working-hours"><span>пнд-вскр 9:00 - 21:00</span></div>
+									<div class="contacts-tel"><span>+7 (495) 266 79 57</span></div>
+								</div>
+								<div class="contacts-map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.739820560401!2d37.657252615930254!3d55.74564948055145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ae94d6faf05%3A0x5ceb8230678431bb!2z0J_QtdGB0YLQvtCy0YHQutC40Lkg0L_QtdGALiwgNSwg0JzQvtGB0LrQstCwLCAxMDkwMDQ!5e0!3m2!1sru!2sru!4v1493530333661" allowfullscreen></iframe>
+								</div>
+							</div>
+						</section>
 
-					<div class="block-star">
-						<div class="star-description"></div>
-						<div class="star-foto"></div>
-						<div class="star-name"></div>
-					</div>
 
-					<a class="all-services button"></a>
+						<a class="content-appointment button appointment-js" href="#show">Записаться на приём</a>
 
+					</section>
 
 				</div>
-				
-				<div class="clear clear-footer"></div>
-			</section>
 
+				<div class="block-modal-appointment" id="show">
+					<div class="modal-appointment-wrapper">
+						<div class="modal-appointment-title">Записаться на прием</div>
+						<form class="modal-appointment-form" name="appointment-form" method="post" action="#">
+							<div class="form-group">
+								<input class="modal-appointment-name form-element" name="appointment-name" type="text" tabindex="1" placeholder="Имя">
+								<input class="modal-appointment-tel form-element" name="appointment-tel" type="tel" tabindex="2" placeholder="Телефон">
+								<select class="modal-appointment-procedure form-element" name="appointment-procedure" tabindex="3">
+									<option value="" disabled selected style='display:none;'>Специализация</option>
+									<option value="filter-specialization">Значение 1</option>
+									<option value="filter-specialization">Значение 2</option>
+								</select>
+							</div>
+							<div class="form-group clearfix">
+								<select class="modal-appointment-date form-element" name="appointment-date" tabindex="4">
+									<option value="" disabled selected style='display:none;'>Дата</option>
+									<option value="filter-specialization">Значение 1</option>
+									<option value="filter-specialization">Значение 2</option>
+								</select>
+								<select class="modal-appointment-time form-element" name="appointment-time" tabindex="5">
+									<option value="" disabled selected style='display:none;'>Время</option>
+									<option value="filter-specialization">Значение 1</option>
+									<option value="filter-specialization">Значение 2</option>
+								</select>
+							</div>
+							<div class="form-group clearfix">
+								<div class="modal-appointment-tip"><span>*</span> - Обязательные для заполнения поля</div>
+								<button class="modal-appointment-submit" name="appointment-submit" type="submit">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</section>
 
 		</main>
 
-<!--FOOTER-->
+		<!--FOOTER-->
 		<footer class="block-footer">
-
-			<div class="site-wrap">
-
+			<div class="site-wrap">	
 				<nav class="footer-nav">
 					<ul class="footer-list unstyle-list">
-						<li class="footer-list-item"><a class="footer-list-link" href="">Пластическая хирургия</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Аппаратная косметология</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Лазерный центр</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Инъекционная косметология</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Эстетическая косметология</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Подология</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Маникюр</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Я хочу</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Пластическая хирургия</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Аппаратная косметология</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Лазерный центр</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Инъекционная косметология</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Эстетическая косметология</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Подология</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Маникюр</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Я хочу</a></li>
 					</ul>
 				</nav>
-
-				<section class="mailing">
-					<div class="title">Присоединиться к рассылке</div>
-					<form class="form" action="">
-						<input class="email" type="email">
-						<input class="submit" type="submit">
-					</form>
-				</section>
-
-				<section class="social"></section>
-
-				<section class="copyright">Copyright 2015-2017</section>
 			</div>
 
+				<section class="block-mailing">
+					<div class="site-wrap">
+							<div class="mailing-title">Присоединиться к рассылке</div>
+							<form class="mailing-form clearfix" method="post" action="#">
+								<input class="mailing-email form-element" type="email" name="mailing-name" placeholder="Email">
+								<input class="mailing-submit" type="submit" name="mailing-submit">
+							</form>
+					</div>
+				</section>
+
+				<div class="site-wrap">
+					<section class="block-social">
+						<a class="social-button fb" href="#"></a>
+						<a class="social-button inst" href="#"></a>
+						<a class="social-button tw" href="#"></a>
+						<a class="social-button vk" href="#"></a>
+						<a class="social-button yt" href="#"></a>
+					</section>
+				</div>
+				
+				<div class="site-wrap">
+					<section class="block-copyright">Copyright 2015-2017</section>
+				</div>
+
 		</footer>
-<!--FOOTER-END-->
+	</div>
+		<!--FOOTER-END-->
 
 	</body>
 </html>

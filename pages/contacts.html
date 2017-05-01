@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="ru">
 	<head>
 		<title>Контакты</title>
 
@@ -28,6 +28,8 @@
 	</head>
 	
 	<body>
+
+	<div class="container">
 
 		<main>
 
@@ -71,10 +73,11 @@
 			<!--HEADER-END-->
 
 			<section class="block-content">
+
 				<div class="site-wrap contacts">
 
 					<div class="block-breadcrumbs">
-						<a class="breadcrumbs-link" href="">Главная</a>	/	<a class="breadcrumbs-link" href="">О клиниках</a> / <span class="breadcrumbs-current">Контакты</span>
+						<a class="breadcrumbs-link" href="#">Главная</a>	/	<a class="breadcrumbs-link" href="#">О клиниках</a> / <span class="breadcrumbs-current">Контакты</span>
 					</div>
 
 					<section class="block-contacts">
@@ -95,21 +98,22 @@
 								<div class="contacts-tel"><span>+7 (495) 266 79 57</span></div>
 							</div>
 							<div class="contacts-map">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.739820560401!2d37.657252615930254!3d55.74564948055145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ae94d6faf05%3A0x5ceb8230678431bb!2z0J_QtdGB0YLQvtCy0YHQutC40Lkg0L_QtdGALiwgNSwg0JzQvtGB0LrQstCwLCAxMDkwMDQ!5e0!3m2!1sru!2sru!4v1493530333661" width="292" height="345" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.739820560401!2d37.657252615930254!3d55.74564948055145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ae94d6faf05%3A0x5ceb8230678431bb!2z0J_QtdGB0YLQvtCy0YHQutC40Lkg0L_QtdGALiwgNSwg0JzQvtGB0LrQstCwLCAxMDkwMDQ!5e0!3m2!1sru!2sru!4v1493530333661" allowfullscreen></iframe>
 							</div>
-						</section>
+						</div>
+					</section>
 
-						<div class="block-write-us">
+						<section class="block-write-us">
 							<div class="write-us-wrapper">
 								<div class="write-us-title">Написать директору по развитию</div>
-								<form class="write-us-form " action="">
+								<form class="write-us-form" name="write-us-form" action="#">
 									<div class="form-group">
-										<input class="write-us-email form-element" type="email" placeholder="Email">
-										<input class="write-us-tel form-element" type="tel" placeholder="Телефон">
-										<input class="write-us-name form-element" type="text" placeholder="Ф.И.О">
+										<input class="write-us-email form-element" type="email" name="write-us-email" tabindex="1" placeholder="Email">
+										<input class="write-us-tel form-element" type="tel" name="write-us-tel" tabindex="2" placeholder="Телефон">
+										<input class="write-us-name form-element" type="text" name="write-us-name" tabindex="3" placeholder="Ф.И.О">
 									</div>
 									<div class="form-group">
-										<textarea class="write-us-text form-element" name="" id="" cols="30" rows="10" placeholder="Комментарий"></textarea>
+										<textarea class="write-us-text form-element" name="write-us-text" cols="30" rows="10" tabindex="4" placeholder="Комментарий"></textarea>
 									</div>
 									<div class="form-group clearfix">
 										<div class="write-us-tip"><span>*</span> - Обязательные для заполнения поля</div>
@@ -117,11 +121,10 @@
 									</div>
 								</form>
 							</div>
-						</div>
+						</section>
 
 
 						<div class="block-clinic-gallery">
-
 							<div class="clinic-gallery-wrapper clinic-gallery-js">
 
 								<div class="slide">
@@ -158,23 +161,23 @@
 				<div class="block-modal-appointment" id="show">
 					<div class="modal-appointment-wrapper">
 						<div class="modal-appointment-title">Записаться на прием</div>
-						<form class="modal-appointment-form " action="">
+						<form class="modal-appointment-form" name="appointment-form" method="post" action="#">
 							<div class="form-group">
-								<input class="modal-appointment-name form-element" type="text" placeholder="Имя">
-								<input class="modal-appointment-tel form-element" type="tel" placeholder="Телефон">
-								<select class="modal-appointment-procedure form-element" name="">
+								<input class="modal-appointment-name form-element" name="appointment-name" type="text" tabindex="1" placeholder="Имя">
+								<input class="modal-appointment-tel form-element" name="appointment-tel" type="tel" tabindex="2" placeholder="Телефон">
+								<select class="modal-appointment-procedure form-element" name="appointment-procedure" tabindex="3">
 									<option value="" disabled selected style='display:none;'>Специализация</option>
 									<option value="filter-specialization">Значение 1</option>
 									<option value="filter-specialization">Значение 2</option>
 								</select>
 							</div>
 							<div class="form-group clearfix">
-								<select class="modal-appointment-date form-element" name="">
+								<select class="modal-appointment-date form-element" name="appointment-date" tabindex="4">
 									<option value="" disabled selected style='display:none;'>Дата</option>
 									<option value="filter-specialization">Значение 1</option>
 									<option value="filter-specialization">Значение 2</option>
 								</select>
-								<select class="modal-appointment-time form-element" name="">
+								<select class="modal-appointment-time form-element" name="appointment-time" tabindex="5">
 									<option value="" disabled selected style='display:none;'>Время</option>
 									<option value="filter-specialization">Значение 1</option>
 									<option value="filter-specialization">Значение 2</option>
@@ -182,14 +185,14 @@
 							</div>
 							<div class="form-group clearfix">
 								<div class="modal-appointment-tip"><span>*</span> - Обязательные для заполнения поля</div>
-								<button class="modal-appointment-submit" type="submit">Отправить</button>
+								<button class="modal-appointment-submit" name="appointment-submit" type="submit">Отправить</button>
 							</div>
 						</form>
 					</div>
 				</div>
 				
 				</div>
-<!--<div class="clear clear-footer"></div>-->
+
 			</section>
 
 		</main>
@@ -199,14 +202,14 @@
 			<div class="site-wrap">	
 				<nav class="footer-nav">
 					<ul class="footer-list unstyle-list">
-						<li class="footer-list-item"><a class="footer-list-link" href="">Пластическая хирургия</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Аппаратная косметология</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Лазерный центр</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Инъекционная косметология</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Эстетическая косметология</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Подология</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Маникюр</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="">Я хочу</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Пластическая хирургия</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Аппаратная косметология</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Лазерный центр</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Инъекционная косметология</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Эстетическая косметология</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Подология</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Маникюр</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="#">Я хочу</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -214,28 +217,29 @@
 				<section class="block-mailing">
 					<div class="site-wrap">
 							<div class="mailing-title">Присоединиться к рассылке</div>
-							<form class="mailing-form clearfix" action="">
-								<input class="mailing-email form-element" type="email" placeholder="Email">
-								<input class="mailing-submit" type="submit">
+							<form class="mailing-form clearfix" method="post" action="#">
+								<input class="mailing-email form-element" type="email" name="mailing-name" placeholder="Email">
+								<input class="mailing-submit" type="submit" name="mailing-submit">
 							</form>
 					</div>
 				</section>
+
 				<div class="site-wrap">
 					<section class="block-social">
-
-						<a class="social-button fb" href=""></a>
-						<a class="social-button inst" href=""></a>
-						<a class="social-button tw" href=""></a>
-						<a class="social-button vk" href=""></a>
-						<a class="social-button yt" href=""></a>
+						<a class="social-button fb" href="#"></a>
+						<a class="social-button inst" href="#"></a>
+						<a class="social-button tw" href="#"></a>
+						<a class="social-button vk" href="#"></a>
+						<a class="social-button yt" href="#"></a>
 					</section>
 				</div>
 				
 				<div class="site-wrap">
 					<section class="block-copyright">Copyright 2015-2017</section>
-				
+				</div>
 
 		</footer>
 		<!--FOOTER-END-->
+	</div>
 	</body>
 </html>

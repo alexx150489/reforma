@@ -140,3 +140,9 @@
 	margin-bottom: 32px;
 	background: url("../../images/map.jpg") 0 0 no-repeat;
 }
+
+.contacts-map iframe {
+	width: 292px;
+	height: 345px;
+	border: 0;
+}

@@ -87,11 +87,22 @@
 	position: absolute;
 	content: '';
 	width: 21px;
-	height: 17px;
+	height: 21px;
 	top: 50%;
 	right: -32px;
 	transform: translateY(-50%);
 	background: url("../../images/sprite.png") -1267px -5px no-repeat;
+}
+
+.procedur-menu-title.active span::after {
+	position: absolute;
+	content: '';
+	width: 21px;
+	height: 21px;
+	top: 50%;
+	right: -32px;
+	transform: translateY(-50%);
+	background: url("../../images/sprite.png") -1241px -5px no-repeat;
 }
 
 .procedur-foto {
@@ -125,6 +136,7 @@
 	font-family: 'PTSansPro-CaptionBold', sans-serif;
 	font-size: 15px;
 	line-height: 28px;
+	font-weight: bold;
 	color: #000;
 	border-top: 2px solid #fff;
 }

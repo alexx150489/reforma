@@ -6,15 +6,117 @@
 }
 
 .model-title {
-	margin-bottom: 23px;
+	margin-bottom: 41px;
 }
 
 .model-image {
+	position: relative;
 	width: 263px;
 	height: 782px;
 	margin: 0 auto;
 	margin-bottom: 26px;
-	background: url("../../images/woman.jpg") 10px 0 no-repeat;
+	background: url("../../images/woman.png") 26px 0 no-repeat;
+}
+
+.model-point {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	cursor: pointer;
+}
+
+.model-point.point1::after {
+	display: none;
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background-color: #fff;
+	top: 15px;
+	left: -98px;
+}
+
+.model-point.point1::before {
+	display: none;
+	position: absolute;
+	font-family: 'PTSansPro-CaptionBold', sans-serif;
+	font-size: 15px;
+	content: 'Остановить выпадение волос';
+	width: 90px;
+	color: #000;
+	top: -21px;
+	left: -98px;
+}
+
+.model-point.point1:hover::after {
+	display: block;
+}
+
+.model-point.point1:hover::before {
+	display: block;
+}
+
+.model-point.point1 {
+	top: -1px;
+	left: 109px;
+}
+
+.model-point.point2 {
+	top: 29px;
+	left: 125px;
+}
+
+.model-point.point3 {
+	top: 66px;
+	left: 90px;
+}
+
+.model-point.point4 {
+	top: 108px;
+	left: 125px;
+}
+
+.model-point.point5 {
+	top: 153px;
+	left: 118px;
+}
+
+.model-point.point6 {
+	top: 189px;
+	left: 55px;
+}
+
+.model-point.point7 {
+	top: 219px;
+	left: 194px;
+}
+
+.model-point.point8 {
+	top: 319px;
+	left: 125px;
+}
+.model-point.point9 {
+	top: 327px;
+	left: 55px;
+}
+
+.model-point.point10 {
+	top: 449px;
+	left: 55px;
+}
+
+.model-point.point11 {
+	top: 528px;
+	left: 145px;
+}
+.model-point.point12 {
+	top: 609px;
+	left: 147px;
+}
+
+.model-point.point13 {
+	top: 731px;
+	left: 110px;
 }
 
 .model-link {

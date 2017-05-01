@@ -67,8 +67,9 @@ $(document).ready(function() {
 		'speedIn'		:	600, 
 		'speedOut'		:	200, 
 		'overlayShow'	:	false,
-		'width': 320,
+		'margin': 0,
 		'padding' : 0
+
 	});
 
 });

@@ -1,14 +1,14 @@
-.action-title {
+.news-title {
 	margin-bottom: 25px;
 }
 
-.action-item {
+.news-item {
 	border: 1px solid #6f7173;
 	padding: 10px 14px;
 	margin-bottom: 31px;
 }
 
-.action-item-title {
+.news-item-title {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 18px;
 	line-height: 28px;
@@ -17,7 +17,7 @@
 	padding-bottom: 13px;
 }
 
-.action-item-date {
+.news-item-date {
 	display: block;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 12px;
@@ -26,7 +26,7 @@
 	color: #000;
 }
 
-.action-item-description p {
+.news-item-description p {
 	padding-top: 9px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
@@ -35,7 +35,7 @@
 	color: #000;
 }
 
-.action-item-link {
+.news-item-link {
 	display: block;
 	padding-top: 5px;
 	font-family: 'PT Sans Caption', sans-serif;

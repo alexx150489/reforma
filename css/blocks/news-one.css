@@ -1,0 +1,105 @@
+.news-one-wrapper {
+	padding-bottom: 6px;
+}
+
+.news-one-title {
+	margin-bottom: 22px;
+}
+
+.news-one-social {
+	width: 296px;
+	margin: 0 auto;
+	margin-bottom: 29px;
+	font-size: 0;
+}
+
+.news-one-social-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 25px;
+	height: 25px;
+	margin-right: 2px;
+}
+
+.news-one-social-item:last-child {
+	margin-right: 0;
+}
+
+.news-one-social-item.vk {
+	background: url("../../images/sprite.png") -277px -5px no-repeat;
+}
+
+.news-one-social-item.fb {
+	background: url("../../images/sprite.png") -311px -5px no-repeat;
+}
+
+.news-one-social-item.odn {
+	background: url("../../images/sprite.png") -345px -5px no-repeat;
+}
+
+.news-one-social-item.mm {
+	background: url("../../images/sprite.png") -378px -5px no-repeat;
+}
+
+.news-one-social-item.gplus {
+	background: url("../../images/sprite.png") -411px -5px no-repeat;
+}
+
+.news-one-social-item.tw {
+	background: url("../../images/sprite.png") -444px -5px no-repeat;
+}
+
+.news-one-social-item.b {
+	background: url("../../images/sprite.png") -477px -5px no-repeat;
+}
+
+.news-one-social-item.link {
+	background: url("../../images/sprite.png") -510px -5px no-repeat;
+}
+
+.news-one-social-item.tum {
+	background: url("../../images/sprite.png") -543px -5px no-repeat;
+}
+
+.news-one-social-item.vb {
+	background: url("../../images/sprite.png") -576px -5px no-repeat;
+}
+
+.news-one-social-item.wa {
+	background: url("../../images/sprite.png") -609px -5px no-repeat;
+}
+
+.news-one-date {
+	display: block;
+	margin-bottom: 25px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #000;
+}
+
+.news-one-img {
+	width: 297px;
+	margin: 0 auto;
+	margin-bottom: 29px;
+	text-align: center;
+	border-radius: 17px;
+	overflow: hidden;
+}
+
+.news-one-text {
+	padding-bottom: 23px;
+}
+.news-one-text p {
+	margin-bottom: 23px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #000;
+}
+
+.news-one-text p:last-child {
+	margin-bottom: 0;
+}

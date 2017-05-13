@@ -80,12 +80,16 @@
 }
 
 .news-one-img {
-	width: 297px;
 	margin: 0 auto;
 	margin-bottom: 29px;
 	text-align: center;
 	border-radius: 17px;
 	overflow: hidden;
+}
+
+.news-one-img img {
+	width: 100%;
+	max-width: 100%;
 }
 
 .news-one-text {

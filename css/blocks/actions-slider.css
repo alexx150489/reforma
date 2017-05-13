@@ -98,6 +98,8 @@
 	background: url("../../images/sprite.png") -1375px -5px no-repeat;
 }
 
-
-
-
+.actions-slider-show-all {
+	background-color: #85b54a;
+	color: #fff;
+	border: 1px solid #578322;
+}

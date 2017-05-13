@@ -8,7 +8,6 @@
 	padding: 0 13px;
 }
 
-
 .header-logo-wrapper {
 	min-height: 93px;
 	float: left;
@@ -136,6 +135,10 @@
 	top: 2px;
 	left: -36px;
 	background: url("../../images/sprite.png") -34px -58px no-repeat;
+}
+
+.header-contacts-tel.ekb {
+	display: none;
 }
 
 

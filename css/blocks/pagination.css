@@ -1,12 +1,15 @@
 .block-pagination {
-	width: 181px;
-	margin: 0 auto;
+	width: 100%;
 	margin-bottom: 30px;
 	font-size: 0;
+	text-align: center;
 }
 
 .pagination-wrapper {
+	display: inline-block;
 	position: relative;
+	text-align: center;
+	min-width: 181px;
 }
 
 .pagination-control {
@@ -38,8 +41,6 @@
 	margin-right: 12px;
 	background: url("../../images/sprite.png") -1090px 0 no-repeat;
 }
-
-
 
 .pagination-item {
 	display: inline-block;

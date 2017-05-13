@@ -1,5 +1,6 @@
 .block-mailing {
 	background-color: #85b54a;
+	
 }
 
 .mailing-title {
@@ -17,19 +18,17 @@
 }
 
 .mailing-email {
-	float: left;
-	width: 176px;
+	width: calc(100% - 140px);
 	height: 33px;
 	padding-left: 13px;
 	display: inline-block;
 	vertical-align: top;
 	font-family: 'PTSansPro-LightItalic', sans-serif;
 	font-size: 15px;
-	line-height: 26px;	
+	line-height: 26px;
 }
 
 .mailing-submit {
-	float: right;
 	display: inline-block;
 	vertical-align: top;
 	padding: 2px 12px;
@@ -41,4 +40,16 @@
 	border: none;
 	color: #fff;
 	background-color: #606060;
+	width: 110px;
+	margin-left: 30px;
+}
+
+.wrapper-email {
+	float: left;
+	display: inline-block;
+}
+
+.wrapper-submit {
+	float: right;
+	display: inline-block;
 }

@@ -76,6 +76,12 @@
 	margin-bottom: 24px;
 }
 
+.iwant-foto img {
+	width: 100%;
+	max-width: 100%;
+}
+
+
 .iwant-description {
 	margin-bottom: 28px;
 	font-family: 'PT Sans Caption', sans-serif;

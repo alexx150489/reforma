@@ -2,13 +2,12 @@
 	margin-bottom: 6px;
 }
 
-
 .services-title {
 	padding: 0 15px;
 	margin-bottom: 22px;
 }
 .services-items {
-	width: 296px;
+	text-align: center;
 	margin: 0 auto;
 	font-size: 0;
 }
@@ -16,13 +15,9 @@
 .services-item {
 	display: inline-block;
 	vertical-align: top;
-	width: 125px;
-	margin-left: 5px;
+	width: 50%;
 	padding-bottom: 25px;
-}
-
-.services-item.column2 {
-	margin-left: 32px;
+	
 }
 
 .services-item-image {
@@ -54,7 +49,6 @@
 	background: url("../../images/photo-4.png") 0 0 no-repeat;
 }
 
-
 .services-item-title {
 	font-family: 'FedraSansPro-Light', sans-serif;
 	font-size: 18px;
@@ -62,4 +56,11 @@
 	text-align: center;
 	font-weight: normal;
 	color: #000;
+}
+
+
+@media (min-width: 460px) {
+	.services-item {
+		width: 33.333333%;
+	}
 }

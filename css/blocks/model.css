@@ -25,27 +25,165 @@
 	cursor: pointer;
 }
 
-.model-point.point1::after {
-	display: block;
+.model-point .line {
+	display: none;
 	position: absolute;
 	content: '';
 	width: 100px;
 	height: 1px;
 	background-color: #fff;
-	top: 15px;
-	left: -98px;
 }
-
-.model-point.point1::before {
-	display: block;
+.model-point .link {
+	display: none;
 	position: absolute;
 	font-family: 'PTSansPro-CaptionBold', sans-serif;
 	font-size: 15px;
-	content: 'Остановить выпадение волос';
 	width: 90px;
 	color: #000;
+}
+
+.model-point.active .line {
+	display: inline-block;
+}
+
+.model-point.active .link {
+	display: inline-block;
+}
+
+.model-point.active.point1 .line {
+	top: 15px;
+	left: -98px;
+}
+.model-point.active.point1 .link {
 	top: -21px;
 	left: -98px;
+}
+
+.model-point.active.point2 .line {
+	top: 15px;
+	right: -98px;
+}
+.model-point.active.point2 .link {
+	top: -2px;
+	right: -114px;
+}
+
+.model-point.active.point3 .line {
+	top: 15px;
+	left: -100px;
+}
+.model-point.active.point3 .link {
+	top: -3px;
+	left: -101px;
+}
+
+.model-point.active.point4 .line {
+	top: 15px;
+	right: -98px;
+}
+.model-point.active.point4 .link {
+	top: -2px;
+	right: -133px;
+}
+
+.model-point.active.point5 .line {
+	top: 15px;
+	left: -100px;
+}
+.model-point.active.point5 .link {
+	top: -3px;
+	left: -141px;
+}
+
+.model-point.active.point6 .line {
+	top: 15px;
+	left: -96px;
+}
+.model-point.active.point6 .link {
+	top: -21px;
+	left: -80px;
+}
+
+.model-point.active.point7 .line {
+	top: -45px;
+	right: -30px;
+	width: 91px;
+	transform: rotate(270deg);
+}
+.model-point.active.point7 .link {
+	top: -150px;
+	right: -59px;
+}
+
+.model-point.active.point8 .line {
+	top: 15px;
+	right: -97px;
+}
+.model-point.active.point8 .link {
+	width: 73px;
+	top: -24px;
+	right: -134px;
+}
+
+.model-point.active.point9 .line {
+	width: 85px;
+	top: 16px;
+	left: -86px;
+}
+.model-point.active.point9 .link {
+	top: 20px;
+	left: -80px;
+}
+
+.model-point.active.point10 .line {
+	width: 85px;
+	top: 16px;
+	left: -85px;
+}
+.model-point.active.point10 .link {
+	width: 105px;
+	top: 25px;
+	left: -80px;
+}
+
+.model-point.active.point11 .line {
+	top: 15px;
+	right: -97px;
+}
+.model-point.active.point11 .link {
+	top: -22px;
+	right: -104px;
+}
+
+.model-point.active.point12 .line {
+	top: 15px;
+	right: -85px;
+	width: 90px;
+}
+
+.model-point.active.point12 .link {
+	top: -5px;
+	right: -113px;
+}
+
+.model-point.active.point13 .line {
+	top: 17px;
+	left: -96px;
+}
+.model-point.active.point13 .link {
+	top: -20px;
+	left: -94px;
+}
+
+.model-point.active.point14 .line {
+	width: 34px;
+	top: 98px;
+	left: 26px;
+	transform: rotate(270deg);
+}
+.model-point.active.point14 .link {
+	top: 111px;
+	left: 16px;
 }
 
 .model-point.point1 {
@@ -109,6 +247,13 @@
 .model-point.point13 {
 	top: 731px;
 	left: 110px;
+}
+
+.model-point.point14 {
+	width: 80px;
+	height: 80px;
+	top: 374px;
+	left: 171px;
 }
 
 .model-link {

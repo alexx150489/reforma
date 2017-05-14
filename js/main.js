@@ -104,14 +104,11 @@ $(document).ready(function() {
 	// 	}
 	// });
 
+	// model-block select >>>
 	$(document).click( function(e) {
-
-		if( $(e.target).closest(".model-point").length ) {
-			return;
-		}
-
+		if ( $(e.target).closest(".model-point").length ) {return;}
 		$(".model-point").removeClass("active");
-		event.stopPropagation();
+		e.stopPropagation();
 	});
 
 	$('.model-point').click( function(e) {

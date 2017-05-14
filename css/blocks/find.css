@@ -1,0 +1,98 @@
+.find-search-wrapper {
+	position: relative;
+	margin-bottom: 19px;
+}
+
+.find-title {
+	margin-bottom: 25px;
+}
+
+.find-search-wrapper::after {
+	position: absolute;
+	content: '';
+	width: 19px;
+	height: 19px;
+	top: 20px;
+	right: 14px;
+	background: url("../../images/sprite.png") -1326px -4px no-repeat;
+}
+
+.find-form {
+	display: block;
+	width: 100%;
+}
+
+.find-search-wrapper input[type="search"] {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 60px;
+	padding: 0 30px 0 10px;
+	border: 1px solid #606060;
+	border-radius: 7px;
+	font-family: 'FedraSansPro-Light', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.find-filters {
+	margin-bottom: 11px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	line-height: 28px;
+	font-weight: bold;
+	color: #85b54a;
+}
+
+.find-filters .find-filter {
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.find-filters .find-filter.active {
+	color: #000;
+}
+
+.find-result {
+	margin-bottom: 29px;
+}
+
+.find-result .result-title {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #578322;
+}
+
+.find-result .result-text {
+	margin-bottom: 15px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.find-result .result-date {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.find-result .result-path {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.find-result .result-path a{
+	font-weight: bold;
+	color: #578322;
+}
+
+.find-result b{
+	font-weight: bold;
+	color: #000;
+}

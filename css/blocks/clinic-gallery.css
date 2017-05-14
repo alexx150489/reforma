@@ -4,14 +4,20 @@
 	padding-bottom: 51px;
 }
 
+.clinic-gallery-wrapper {
+	padding: 0 25px;
+}
 
 .block-clinic-gallery .slide-image {
-	width: 202px;
-	height: 170px;
 	margin: 0 auto;
 	text-align: center;
 }
 
+.block-clinic-gallery .slide-image img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
 
 .block-clinic-gallery .slick-dots {
 	bottom: -47px;

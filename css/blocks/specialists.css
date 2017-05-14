@@ -69,6 +69,7 @@
 	width: 100%;
 	display: inline-block;
 	padding: 15px 0;
+	margin-bottom: 20px;
 	border: 1px solid #a1a4a5;
 	border-radius: 7px;
 	background-color: #606060;
@@ -81,11 +82,25 @@
 	cursor: pointer;
 }
 
+.specialists-filter-form .filter-reset {
+	display: block;
+	width: 100%;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: bold;
+	text-align: center;
+	color: #85b54a;
+	background-color: transparent;
+	border: none;
+}
+
 .specialists-item {
 	margin-bottom: 22px;
 }
 
 .specialists-item .specialist-foto {
+	display: block;
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -130,4 +145,15 @@
 
 .specialists-item .clinic-title {
 	font-weight: bold;
+}
+
+@media (min-width: 460px) {
+	.specialists-items {
+		font-size: 0;
+	}
+	.specialists-item {
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+	}
 }

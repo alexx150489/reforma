@@ -79,6 +79,7 @@
 .iwant-foto img {
 	width: 100%;
 	max-width: 100%;
+	height: auto;
 }
 
 
@@ -138,6 +139,7 @@
 
 .iwant-question-title {
 	padding: 16px 0;
+	padding-right: 10px;
 	position: relative;
 	cursor: pointer;
 	font-family: 'PTSansPro-CaptionBold', sans-serif;

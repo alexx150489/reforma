@@ -32,9 +32,9 @@ $(document).ready(function() {
 		$(this).addClass("active");
 		$('.menu-tel-js').hide();
 
-		if ( $(this).text() === 'Москва' ) {
+		if ( $(this).hasClass("msk") ) {
 			$('.menu-tel-js.msk').show();
-		} else if ( $(this).text() === 'Екатеринбург' ) {
+		} else if ( $(this).hasClass("ekb") ) {
 			$('.menu-tel-js.ekb').show();
 		}
 
@@ -77,32 +77,24 @@ $(document).ready(function() {
 
 
 	// modal-appointment http://fancybox.net/ >>>
-	$(".appointment-js").fancybox({
-		'transitionIn'	:	'elastic',
-		'transitionOut'	:	'elastic',
-		'speedIn'		:	600, 
-		'speedOut'		:	200, 
-		'overlayShow'	:	false,
-		'margin': 0,
-		'padding' : 0
+	$(".modal-appointment-close").click( function(e) {
+		$.fancybox.close();
 	});
 
-	// $(".lic1-js").fancybox({
-	// 	'transitionIn'	:	'elastic',
-	// 	'transitionOut'	:	'elastic',
-	// 	'speedIn'		:	600, 
-	// 	'speedOut'		:	200, 
-	// 	'overlayShow'	:	false,
-	// 	'margin': 0,
-	// 	'padding' : 0
-	// });
+	$(".appointment-js").fancybox({
+		'transitionIn' : 'elastic',
+		'transitionOut' : 'elastic',
+		'speedIn' : 600, 
+		'speedOut' : 200, 
+		'overlayShow' : false,
+		'margin' : 0,
+		'padding' : 0,
+		'closeBtn' : false
+	});
 
-	// model-block menu
-	// $('body').on("click", function(e) {
-	// 	if ( $('.model-point-js').hasClass("active") ) {
-	// 		$('.model-point-js').removeClass("active");
-	// 	}
-	// });
+	// block-licenzies http://fancybox.net/ >>>
+	$(".licenzies-image").fancybox();
+
 
 	// model-block select >>>
 	$(document).click( function(e) {
@@ -115,5 +107,77 @@ $(document).ready(function() {
 		$(".model-point").removeClass("active");
 		$(this).toggleClass("active");
 	});
+
+
+
+
+	// block-contacts toggle >>>
+	$('.contacts-town').click( function(e) {
+		e.preventDefault();
+		$('.contacts-town').removeClass("active");
+		$(this).addClass("active");
+
+		if ( $(this).hasClass('msk') ) {
+			$('.contacts-location').hide();
+			$('.contacts-info').hide();
+			$('.contacts-location.msk').show();
+			$('.contacts-info.taganskaya').show();
+			$('.contacts-station:contains("Таганская")').addClass("active");
+			$('.contacts-map').hide();
+			$('.contacts-map.taganskaya').show();
+		}
+
+		if ( $(this).hasClass('ekb') ) {
+			$('.contacts-location').hide();
+			$('.contacts-info').hide();
+			$('.contacts-location.ekb').show();
+			$('.contacts-info.ekb').show();
+			$('.contacts-station').removeClass("active");
+			$('.contacts-location.ekb .contacts-station').addClass("active");
+			$('.contacts-map').hide();
+			$('.contacts-map.ekb').show();
+		}
+
+	});
+
+	$('.contacts-station').click( function(e) {
+		e.preventDefault();
+		$('.contacts-station').removeClass("active");
+		$(this).addClass("active");
+
+		if ( $(this).hasClass('taganskaya') ) {
+			$('.contacts-info.novoslobodskaya').hide();
+			$('.contacts-info.taganskaya').show();
+			$('.contacts-map').hide();
+			$('.contacts-map.taganskaya').show();
+		}
+
+		if ( $(this).hasClass('novoslobodskaya') ) {
+			$('.contacts-info.taganskaya').hide();
+			$('.contacts-info.novoslobodskaya').show();
+			$('.contacts-map').hide();
+			$('.contacts-map.novoslobodskaya').show();
+		}
+
+	});
+
+
+// block-iwnat accordion >>>
+
+	$(".iwant-question-title").on("click", function(e) {
+		
+		e.preventDefault();
+		var $this = $(this);
+
+		if( !$(this).hasClass("active") ) {
+			$(".iwant-answer").slideUp();
+			$(".iwant-question-title").removeClass("active");
+		}
+
+		$(this).toggleClass("active");
+		$(this).next().slideToggle();
+
+	});
+
 
 });

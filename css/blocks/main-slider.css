@@ -1,7 +1,7 @@
 .main-slider-wrapper {
-
 	margin: 0 auto;
 	background-color: #000;
+	min-height: 386px;
 	overflow: hidden;
 }
 

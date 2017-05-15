@@ -115,13 +115,14 @@
 	font-size: 15px;
 }
 
-.fancybox-close	{
+.modal-appointment-close	{
 	position: absolute;
 	width: 17px;
 	height: 17px;
-	top: 15px;
-	right: 13px;
+	top: -13px;
+	right: 8px;
 	background: url("../../images/sprite.png") -62px -58px no-repeat;
+	cursor: pointer;
 }
 
 

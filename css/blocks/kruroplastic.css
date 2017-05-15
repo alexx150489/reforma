@@ -190,3 +190,17 @@
 	line-height: 24px;
 	font-weight: bold;
 }
+
+
+@media (min-width: 460px) {
+
+	.kruroplastic-specialists {
+		font-size: 0;
+	}
+
+	.kruroplastic-specialists .specialist {
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+	}
+}
